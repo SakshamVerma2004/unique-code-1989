@@ -1,0 +1,48 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    margin-top: 50px;
+    gap: 40px 120px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .city {
+    display: flex;
+    margin: auto;
+    border: 0.2px solid rgb(203, 198, 198);
+    border-color: aliceblue;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 400px;
+    height:70px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-around;
+    padding-right: 40px;
+  }
+
+  .city:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .city a{
+    margin: auto;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(72, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city a:hover{
+  text-decoration: none;
+}
+
+.arrow{
+    color: rgb(72, 70, 70);   
+}

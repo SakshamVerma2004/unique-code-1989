@@ -1,0 +1,115 @@
+.main{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height:600px;
+    background-size: cover;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .blurredImage{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height:600px;
+    background-size: cover;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .noblur{
+    filter:none;
+  }
+
+  .main h1{
+    color: white;
+    font-weight:900;
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .quick{
+    color: white;
+    font-weight:900;
+    font-size: 65px;
+    text-align: center;
+  }
+  
+  .main h2{
+    color:white;
+    font-weight:300;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .satisfy{
+    color:white;
+    font-weight:300;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .inside{
+    height:200px;
+    position: relative;
+    width:450px;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+  }
+  
+  .inside h1{
+    margin-bottom: 14px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .navbar{
+    display: flex;
+    width:200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 20%;
+    height:20px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .popularheading{
+    margin-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .change{
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .flag{
+    width:50px;
+    height:30px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .description{
+    margin: auto;
+    margin-top: 40px;
+    width:900px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .description p{
+    color: rgb(113, 112, 110);
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+  }
