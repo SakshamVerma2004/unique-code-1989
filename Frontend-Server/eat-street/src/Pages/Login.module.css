@@ -1,0 +1,111 @@
+.main {
+  width: 21%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  padding-bottom: 10px;
+  animation: bump 0.5s, transparentBackground 2s forwards;
+}
+
+@keyframes bump {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes transparentBackground {
+  0% {
+    background-color: white;
+    color: rgb(93, 94, 94);
+  }
+  100% {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.heading {
+  color: black;
+  font-size: 50px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.cancel {
+  font-size: 25px;
+  color: white;
+}
+
+.cancel:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.cross {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  width: 90%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(173, 171, 171);
+  margin-bottom: 30px;
+  background-color: transparent;
+  color:white;
+}
+
+.email {
+  width: 90%;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 5px;
+  background-color: transparent;
+  color:white;
+}
+
+.name::placeholder {
+  color: rgb(173, 171, 171);
+  font-weight: 600;
+}
+
+.email::placeholder {
+  color: rgb(173, 171, 171);
+  font-weight: 600;
+}
+
+.para {
+  color: white;
+  font-size: 17px;
+}
+
+.link {
+  color: dodgerblue;
+}
+
+.submit {
+  width: 95%;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit:hover{
+  cursor: pointer;
+}
+
+.phone::-webkit-inner-spin-button,
+.phone::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}

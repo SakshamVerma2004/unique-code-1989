@@ -3,22 +3,67 @@ import { Link } from "react-router-dom";
 import Cities from "../Components/Cities";
 import Footer from "../Footer/Footer";
 import SignUp from "./SignUp";
-import Backdrop from "../Components/Backdrop";
 import Login from "./Login";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { useEffect } from "react";
+import Profile from "./Profile";
+import { AuthContext } from "../Context/AuthContextProvider";
+import Navbar from "../Navbar/Navbar";
 let HomePage = () => {
-  let [blur, setBlur] = useState(false);
-  let [bright,setBright]=useState(false);
+  let [displayProfile,setDisplayProfile]=useState(false);
+  let [drop, setDrop] = useState(false);
+  let {
+    setSignupShow,
+    setLoginShow,
+    setLinksShow,
+    signupShow,
+    loginShow,
+    linksShow,
+    isLogin,
+    setIsLogin,
+    loginName,
+    setLoginName,
+    logout
+  } = useContext(AuthContext);
+  let [show, setShow] = useState(true);
   let blurHandler = () => {
-    setBlur(true);
+    setSignupShow(true);
+    setLoginShow(false);
+    setLinksShow(false);
+    setShow(false);
   };
-  let brightnessHandler=()=>{
-    setBright(true);
-  }
+  let brightnessHandler = () => {
+    setSignupShow(false);
+    setLoginShow(true);
+    setLinksShow(false);
+    setShow(false);
+  };
   let resetBlurHandler = () => {
-    setBlur(false);
+    setSignupShow(false);
+    setShow(true);
   };
+  let resetBrightnessHandler = () => {
+    setLoginShow(false);
+    setLinksShow(true);
+    setShow(true);
+  };
+  let showDropdown = () => {
+    setDrop(!drop);
+  };
+  let showProfile=()=>{
+    setDisplayProfile(!displayProfile);
+  }
+  let dropdown = (
+    <div className={styles.dropdown}>
+      <div className={styles.high}></div>
+      <Link className={styles.pro} onClick={showProfile}>Profile</Link>
+      {displayProfile?<Profile/>:null};
+      <div>
+        <div className={styles.high}></div>
+        <Link className={styles.logout} onClick={logout}>Logout</Link>
+      </div>
+    </div>
+  );
   let links = (
     <div className={styles.navbar}>
       <Link onClick={brightnessHandler}>Log in</Link>
@@ -33,22 +78,51 @@ let HomePage = () => {
       </h2>
     </div>
   );
+  let profile = (
+    <div>
+      <Link className={styles.profile} onClick={showDropdown}>
+        {loginName}
+      </Link>
+      {drop?<div>{dropdown}</div>:null}
+    </div>
+  );
   useEffect(() => {
-    if (blur) {
+    if (signupShow === true) {
+      setShow(false);
+    }
+    if (loginShow === true) {
+      setShow(false);
+    }
+    if (signupShow === false) {
+      setShow(true);
+    }
+    if (loginShow === false) {
+      setShow(true);
+    }
+  }, [show]);
+  useEffect(() => {
+    if (signupShow) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
     }
-  }, [blur]);
+  }, [signupShow]);
+  useEffect(() => {
+    if (loginShow) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [loginShow]);
   return (
     <div>
-      <div className={blur ? styles.blurredImage : styles.main}>
-        <div>{!blur ? links : ""}</div>
-        {!blur ? text : ""}
+      <div className={signupShow ? styles.blurredImage : styles.main}>
+        {!isLogin ? <div>{linksShow ? links : ""}</div> : profile}
         <div className={styles.noblur}>
-          {blur ? <SignUp onClick={resetBlurHandler} /> : ""}
-          {bright ? <Login onClick={brightnessHandler}/>:""}
+          {signupShow ? <SignUp /> : ""}
+          {loginShow ? <Login /> : ""}
         </div>
+        {show ? text : ""}
       </div>
       <div className={styles.popularheadingdiv}>
         <h1 className={styles.popularheading}>
@@ -71,6 +145,7 @@ let HomePage = () => {
       </div>
       <Cities />
       <Footer />
+      <Navbar/>
     </div>
   );
 };
