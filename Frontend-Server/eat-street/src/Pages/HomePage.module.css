@@ -13,7 +13,36 @@
     padding-top: 20px;
     text-align: center;
   }
-  
+
+  .profile{
+    color: white;
+    margin-left: 800px;
+  }
+
+  .dropdown{
+    margin-left: 1113px;
+    background-color: transparent;
+    width:100px;
+    height:1px;
+  }
+
+  .dropdown h4{
+    color:white;
+  }
+
+  .high{
+    height:9px;
+  }
+
+  .pro{
+    margin-top: 10px;
+    color: white;
+  }
+
+  .logout{
+    color: white;
+  }
+
   .noblur{
     filter:none;
   }
@@ -48,11 +77,10 @@
   
   .inside{
     height:200px;
-    position: relative;
     width:450px;
-    top: 25%;
-    left: 35%;
+    margin: auto;
     text-align: center;
+    margin-top: 150px;
   }
   
   .inside h1{

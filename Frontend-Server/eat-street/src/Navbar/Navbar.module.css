@@ -1,0 +1,70 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+}
+
+.search {
+  border: 0px solid rgb(162, 157, 157);
+  font-size: 20px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.location {
+  width: 20px;
+  height: 20px;
+}
+
+.locationDiv {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(176, 171, 171);
+  height: 45px;
+  padding-right: 25px;
+}
+
+.loginDiv {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-style: italic;
+  color: black;
+  font-weight: 900;
+}
+
+.search:focus {
+  outline: none;
+  border: none;
+}
+
+.loginText{
+  font-weight: 300;
+}
