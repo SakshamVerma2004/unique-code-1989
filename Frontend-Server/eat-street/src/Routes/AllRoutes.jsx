@@ -1,9 +1,8 @@
 import { Route,Routes } from "react-router-dom";
-import Login from "../Pages/Login";
-import SignUp from "../Pages/SignUp";
 import HomePage from "../Pages/HomePage";
 import IndiviualCity from "../Pages/IndiviualCitiy";
 import IndiviualRestaurant from "../Pages/IndiviualRestaurant";
+import Cart from "../Pages/Cart";
 let AllRoutes=()=>{
     return (
         <div>
@@ -11,6 +10,7 @@ let AllRoutes=()=>{
                 <Route path="/" element={<HomePage/>}></Route>
                 <Route path="/:location" element={<IndiviualCity/>}></Route>
                 <Route path="/:location/:restaurantName" element={<IndiviualRestaurant/>}></Route>
+                <Route path="/cart" element={<Cart/>}></Route>
             </Routes>
         </div>
     )

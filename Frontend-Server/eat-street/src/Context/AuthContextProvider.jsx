@@ -9,15 +9,17 @@ export default function AuthContextProvider({ children }) {
   let [isLogin, setIsLogin] = useState(false);
   let [loginName, setLoginName] = useState("");
   let [loginEmail, setLoginEmail] = useState("");
-  let [city,setCity]=useState("");
+  let [city, setCity] = useState("");
+  let [item, setItem] = useState("");
+  let [time, setTime] = useState("");
   let logout = () => {
     setIsLogin(false);
   };
-  setTimeout(()=>{
-    if(isLogin){
+  setTimeout(() => {
+    if (isLogin) {
       setIsLogin(false);
     }
-  },1800000);
+  }, 1800000);
   return (
     <AuthContext.Provider
       value={{
@@ -39,7 +41,11 @@ export default function AuthContextProvider({ children }) {
         loginEmail,
         setLoginEmail,
         city,
-        setCity
+        setCity,
+        item,
+        setItem,
+        time,
+        setTime,
       }}
     >
       {children}
