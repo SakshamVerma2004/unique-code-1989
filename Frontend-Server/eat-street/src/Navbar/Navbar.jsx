@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContextProvider";
 
-let Navbar = ({ city, handleSearch }) => {
+let Navbar = ({ city, handleSearch,cart }) => {
   let { loginName } = useContext(AuthContext);
 
   return (
@@ -38,6 +38,7 @@ let Navbar = ({ city, handleSearch }) => {
         <h4 className={styles.loginText}>Logged in as {"->"}</h4>
         <h4 className={styles.loginName}>{loginName}</h4>
       </div>
+      <h4>{cart}</h4>
     </div>
   );
 };

@@ -145,7 +145,6 @@ let HomePage = () => {
       </div>
       <Cities />
       <Footer />
-      <Navbar/>
     </div>
   );
 };

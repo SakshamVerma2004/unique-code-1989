@@ -1,0 +1,249 @@
+.hr1{
+    border: 1px solid rgb(245, 238, 238);
+}
+
+.imageDiv{
+    margin: auto;
+    width:70%;
+    height:500px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.image{
+    width:100%;
+    transition: transform 1s ease;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ratings{
+    background-color: #2af191;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ratingsStar{
+    width:30px;
+    height: 30px;
+}
+
+.nameDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin: auto;
+    height:40px;
+    margin-top: 10px;
+}
+
+.name{
+    color: rgb(40, 39, 39);
+    text-decoration: underline;
+}
+
+.reviewsDiv{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width:24%;
+    height:30px;
+    border-radius: 8px;
+    padding-right: 6px;
+}
+
+.ratingsText{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reviewText{
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    width: 170px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.specialityDiv{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+
+.speciality{
+    color: rgb(105, 104, 104);
+}
+
+.para{
+    color: rgb(105, 104, 104);
+}
+
+.averagePrice{
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.addressDiv{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.address{
+    color: rgb(163, 151, 151);
+    font-weight: 500;
+}
+
+.deliver{
+    color: rgb(163, 151, 151);
+    font-weight: 500;
+}
+
+.averageTime{
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.openDiv{
+    margin: auto;
+    width:70%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    height: 30px;
+}
+
+.openText{
+    color: rgb(255, 162, 0);
+}
+
+.open{
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.redirect{
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.alert{
+    color: red;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.homepage{
+    color: red;
+    text-decoration: underline;
+}
+
+.counter{
+    color: red;
+    font-weight: 600;
+}
+
+.hr2{
+    border: 0.2px solid rgb(177, 169, 169);
+    width: 70%;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: auto;
+    align-items: center;
+}
+
+.order{
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.search{
+    width:30%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(188, 183, 183);
+    border-radius: 8px;
+}
+
+.search::placeholder{
+    color: rgb(188, 183, 183);
+}
+
+.filter{
+    width:70%;
+    margin: auto;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.apply{
+    color: red;
+}
+
+.veg{
+    width:7%;
+    height: 2%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid rgb(183, 180, 180);
+    background-color: white;
+    color: rgb(96, 96, 96);
+}
+
+.veg:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.veg:active{
+    color: red;
+    border: 1px solid red;
+}
+
+.heading{
+    margin-left: 15%;
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: 300;
+    color: rgb(47, 49, 52);
+    text-decoration: underline;
+}
