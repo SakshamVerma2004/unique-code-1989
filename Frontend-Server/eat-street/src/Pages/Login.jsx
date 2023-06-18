@@ -7,6 +7,7 @@ import { AuthContext } from "../Context/AuthContextProvider";
 let Login = () => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
+  let [admin,setAdmin]=useState(false);
   let {
     setSignupShow,
     setLoginShow,
@@ -41,9 +42,17 @@ let Login = () => {
         console.log(error);
       });
   }, []);
-
   let loginHandler = (e) => {
     e.preventDefault();
+    if (name === "Admin" && email === "admin@gmail.com") {
+      const audio = new Audio(require("./boss2.mp3"));
+      audio.play();
+      swal("Hi Boss", "Time to Play", "success");
+      setTimeout(() => {
+        window.location.href = "/admin";
+      }, 3000);
+      return;
+    }
     if (name.trim().length === 0) {
       swal("Invalid Name", "Name length should not be 0", "error");
       return;

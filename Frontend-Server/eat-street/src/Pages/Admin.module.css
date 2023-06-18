@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+}
+.main{
+    margin: auto;
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(214, 232, 214),lightblue,pink);
+}
+
+.imageDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap:10px;
+}
+
+.image{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.hello{
+    text-decoration: underline;
+    margin-top: -1px;
+}
+
+.userDiv{
+    padding-left: 10px;
+    width: 60%;
+    height: 150px;
+    margin-left: 35%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.desc{
+    width: 50%;
+}
+
+.show{
+    margin-top: -15px;
+    color: rgb(32, 6, 227);
+    width: 10%;
+}
+
+.show:hover{
+    cursor: pointer;
+}
+
+.restaurants{
+    width: 100%;
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.resImage{
+    width: 110px;
+    height: 100px;
+}
+
+.gridDiv{
+    display: flex;
+    gap:20px;
+    height: 100px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.name{
+    margin-top: 9px;
+    font-weight: 700;
+}
+
+.ratings{
+    margin-top: -10px;
+    color: rgb(63, 62, 62);
+}
+
+.address{
+    margin-top: -1px;
+}
+
+.city{
+    margin-top: -10px;
+}
+
+.cartDiv{
+    width: 100%;
+}
+
+.head2{
+    margin-top: 6px;
+}
+
+.cartMainDiv{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap:30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartImage{
+    height: 200px;
+}
+
+.priceDiv{
+    width: 40%;
+}
+
+.cartName{
+    text-decoration: underline;
+}
+
+.cartTime{
+    color: green;
+}
+
+.cartPrice{
+    color: rgb(149, 36, 36);
+}
+
+.cartBy{
+    color: rgb(32, 6, 227);
+    text-decoration: underline;
+}
+
+.cartLoginName{
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.cartLoginEmail{
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.cartDesc{
+    letter-spacing: 2px;
+}
+
+.link{
+    color: green;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: blue;
+}
+
+@media all and (max-width:412px){
+    body{
+        margin: 0px;
+    }
+    .main{
+        margin: auto;
+        width: 99%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        padding: 10px;
+        background-image: linear-gradient(rgb(214, 232, 214),lightblue,pink);
+    }
+    
+    .imageDiv{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        gap:10px;
+    }
+    
+    .image{
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .hello{
+        text-decoration: underline;
+        margin-top: -1px;
+    }
+    
+    .userDiv{
+        display: none;
+    }
+    
+    .desc{
+        width: 50%;
+    }
+    
+    .show{
+        margin-top: -15px;
+        color: rgb(32, 6, 227);
+        width: 40%;
+    }
+    
+    .show:hover{
+        cursor: pointer;
+    }
+    
+    .restaurants{
+        width: 100%;
+        display: grid;
+        gap:5px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .resImage{
+        width: 110px;
+        height: 100px;
+    }
+    
+    .gridDiv{
+        display: flex;
+        gap:20px;
+        height: 100px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .name{
+        margin-top: 9px;
+        font-weight: 700;
+    }
+    
+    .ratings{
+        margin-top: -10px;
+        color: rgb(63, 62, 62);
+    }
+    
+    .address{
+        margin-top: -1px;
+    }
+    
+    .city{
+        display: none;
+    }
+    
+    .cartDiv{
+        width: 100%;
+    }
+    
+    .head2{
+        margin-top: 6px;
+    }
+    
+    .cartMainDiv{
+        width: 100%;
+        height: 160px;
+        margin-top: 10px;
+        border-radius: 10px;
+        display: flex;
+        gap:10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .cartImage{
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .cartName{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .cartTime{
+        display: none;
+    }
+    
+    .cartPrice{
+        display: none;
+    }
+
+    .loginDiv{
+        width:120%
+    }
+    
+    .cartBy{
+        color: rgb(32, 6, 227);
+        text-decoration: underline;
+        margin-left: -35px;
+    }
+    
+    .cartLoginName{
+        font-weight: 600;
+        font-size: 10px;
+        margin-left: -35px;
+        letter-spacing: 1.5px;
+    }
+    
+    .cartLoginEmail{
+        font-weight: 600;
+        font-size: 10px;
+        margin-left: -35px;
+        letter-spacing: 1px;
+    }
+    
+    .cartDesc{
+        display: none;
+    }
+    
+    .link{
+        color: green;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    
+    .link:hover{
+        color: blue;
+    }
+}

@@ -81,7 +81,7 @@ let SignUp = () => {
         </button>
       </form>
       <hr></hr>
-      <h3>
+      <h3 className={styles.parah3}>
         Already have an account ? <Link className={styles.link} onClick={loginShowAndSignupClose}>Log in</Link>
       </h3>
     </div>

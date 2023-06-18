@@ -109,3 +109,118 @@
 .phone::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
+
+@media all and (max-width:412px){
+  .main {
+    width: 41%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+    animation: bump 0.5s, transparentBackground 2s forwards;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes transparentBackground {
+    0% {
+      background-color: white;
+      color: rgb(93, 94, 94);
+    }
+    100% {
+      background-color: transparent;
+      color: white;
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  .heading {
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  .cancel {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .cancel:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .cross {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cross h1{
+    font-size: 30px;
+  }
+
+  .cross p{
+    margin-top: 9px;
+  }
+  
+  .name {
+    width: 90%;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 171, 171);
+    margin-top: -90px;
+    background-color: transparent;
+    color:white;
+  }
+  
+  .email {
+    width: 90%;
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 5px;
+    margin-top: -50px;
+    background-color: transparent;
+    color:white;
+  }
+  
+  .name::placeholder {
+    color: rgb(173, 171, 171);
+    font-weight: 600;
+  }
+  
+  .email::placeholder {
+    color: rgb(173, 171, 171);
+    font-weight: 600;
+  }
+  
+  .para {
+    color: white;
+    font-size: 13px;
+  }
+  
+  .link {
+    color: dodgerblue;
+  }
+  
+  .submit {
+    width: 95%;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -20px;
+  }
+}
