@@ -58,6 +58,9 @@ const Checkout = () => {
     }
     if(name.trim().length!==0 && email.trim().length!==0 && cardNumber.trim().length!==0 && expiryDate.trim().length!==0 && cvv.trim().length!==0){
         swal("Order Sent","Your order has been submitted , Happy Meal..","success");
+        setTimeout(() => {
+          window.location.href="/";
+        }, 1000);
         fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/user-orders.json",{
             method:"POST",
             headers:{
