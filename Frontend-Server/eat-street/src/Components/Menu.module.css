@@ -121,3 +121,122 @@
 .add:disabled{
     cursor: not-allowed;
 }
+
+@media all and (max-screen:412px){
+    .main{
+        width:70%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: flex;
+        gap:10px;
+        align-items: center;
+        border: 0.2px solid rgb(214, 210, 210);
+    }
+    
+    .main:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .imgDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        width: 200px;
+    }
+    
+    .image{
+        border-radius: 4px;
+        width: 100%;
+        object-fit: fill;
+    }
+    
+    .add{
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 5px;
+        color: red;
+        border-color: red;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .add:hover{
+        cursor: pointer;
+    }
+    
+    .addButton{
+        margin-left: 1%;
+    }
+    
+    .descDiv{
+        width:30%;
+        padding: 2px;
+        padding-top: 0px;
+        height: 200px;
+        font-size: 10px;
+    }
+    
+    .vegImage{
+        width:10px;
+    }
+    
+    .nonVegImage{
+        width:10px;
+    }
+    
+    .name{
+        margin-top: -1px;
+        font-size: 10px;
+        text-decoration: underline;
+    }
+    
+    .ratings{
+        display: none;
+    }
+    
+    .rate{
+        display: none;
+    }
+    
+    .votes{
+        display: none;
+    }
+    
+    .price{
+        font-weight: 400;
+        margin-top: -15px;
+        color: rgb(253, 84, 5);
+    }
+    
+    .options{
+        display: flex;
+        margin-bottom: -15px;
+        margin-top: 7px;
+        gap:10px;
+    }
+    
+    .options button{
+        display: none;
+    }
+    
+    .chef{
+        background-color: rgb(255, 115, 0);
+    }
+    
+    .must{
+        background-color: rgb(4, 203, 34);
+    }
+    
+    .best{
+        background-color: rgb(56, 117, 248);
+    }
+    
+    .spicy{
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .add:disabled{
+        cursor: not-allowed;
+    }
+}

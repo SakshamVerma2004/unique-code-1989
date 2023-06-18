@@ -141,3 +141,139 @@
     font-weight: 350;
     text-align: center;
   }
+
+
+  @media all and (max-width:412px){
+    .main{
+      background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+      height:350px;
+      background-size: cover;
+      text-align: center;
+      width: 100%;
+    }
+    .profile{
+      color: white;
+      margin-left: 6%;
+    }
+    .navbar{
+      display: flex;
+      width:39%;
+      justify-content: space-between;
+      margin-left: 50%;
+      height:40px;
+      color: white;
+      font-weight: 400;
+      gap:20px;
+      font-size: 15px;
+    }
+    .dropdown{
+      margin-left: 40%;
+      background-color: transparent;
+      width:100px;
+      height:1px;
+    }
+    .dropdown h4{
+      color:white;
+    }
+  
+    .high{
+      height:9px;
+    }
+  
+    .pro{
+      margin-top: 10px;
+      color: white;
+    }
+  
+    .logout{
+      color: white;
+    }
+  
+    .noblur{
+      filter:none;
+    }
+  
+    .main h1{
+      color: white;
+      font-weight:900;
+      font-size: 65px;
+      text-align: center;
+    }
+  
+    .quick{
+      color: white;
+      font-weight:900;
+      font-size: 15px;
+      text-align: center;
+    }
+    
+    .main h2{
+      color:white;
+      font-weight:300;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .satisfy{
+      color:white;
+      font-weight:300;
+      font-size: 15px;
+      text-align: center;
+    }
+    
+    .inside{
+      height:400px;
+      width:50%;
+      margin: auto;
+      text-align: center;
+      margin-top: 80px;
+    }
+    
+    .inside h1{
+      margin-bottom: 14px;
+      font-size: 30px;
+      font-style: italic;
+      text-align: center;
+    }
+    
+    .navbar a{
+      text-decoration: none;
+      color: white;
+    }
+    
+    .popularheading{
+      margin-top: 15px;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      font-size: 25px;
+      text-align: center;
+    }
+    
+    .change{
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .flag{
+      width:40px;
+      height:20px;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+    
+    .description{
+      margin: auto;
+      margin-top: 20px;
+      width:95%;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      text-align: center;
+    }
+    
+    .description p{
+      color: rgb(113, 112, 110);
+      font-size: 15px;
+      font-weight: 350;
+      text-align: center;
+    }
+  }

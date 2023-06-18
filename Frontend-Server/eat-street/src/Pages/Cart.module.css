@@ -122,6 +122,132 @@
 
 .btn{
     margin: auto;
-    margin-left: 22%;
-    margin-top: -5%;
+    margin-left: 24%;
+    margin-top: -4.5%;
+}
+
+@media all and (max-width:412px){
+    .main{
+        width:80%;
+        margin: auto;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .heading2{
+        display: none;
+    }
+    
+    .card{
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .options{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-around;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    .mainDiv{
+        display: flex;
+        gap:20px;
+        width: 70%;
+        margin-left: 20px;
+    }
+    
+    .image{
+        width:40%;
+        height: 100px;
+    }
+    
+    .values{
+        width: 100%;
+    }
+    
+    .name{
+        font-size: 20px;
+        color: red;
+        margin-top: -5px;
+        text-decoration: underline;
+        letter-spacing: 1.5px;
+    }
+    
+    .price{
+        letter-spacing: 1.5px;
+        color: rgb(112, 114, 115);
+        font-weight: 600;
+        margin-top: -15px;
+    }
+    
+    .desc{
+        display: none;
+    }
+    
+    .options button{
+        width: 20%;
+        height: 30px;
+        border-radius: 4px;
+        color: red;
+        font: 700;
+        font-size: 20px;
+        background-color: white;
+        border-color: red;
+    }
+    
+    .options button:hover{
+        cursor: pointer;
+    }
+    
+    .options button:hover:disabled{
+        cursor: not-allowed;
+    }
+    
+    .qty{
+        font-weight: 700;
+    }
+    
+    .total{
+        color: black;
+    }
+    
+    .totalDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    .check{
+        color: red;
+        background-color: white;
+        border-color:red;
+        margin: auto;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    
+    .check:active{
+        cursor: pointer;
+    }
+    
+    .check:hover{
+        cursor: pointer;
+    }
+    
+    .btn{
+        margin: auto;
+        margin-left: 37%;
+        margin-top: -10.5%;
+    }
 }

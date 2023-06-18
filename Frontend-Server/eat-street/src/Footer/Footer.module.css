@@ -52,3 +52,62 @@ a:hover{
     color: rgb(114, 112, 112);
     letter-spacing: 1.5px
 }
+
+@media all and (max-width:412px){
+    .main{
+        margin-top:50px;
+        background-color: rgb(243, 245, 247);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .parent{
+        margin: auto;
+        border-bottom: 0.1px solid #ffffff;
+        width:100%;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        display: grid;
+        margin-left: -70px;
+        grid-template-columns: repeat(2,200px);
+    }
+    
+    .heading{
+        margin-left: 70px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+    }
+    
+    h4{
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(10, 10, 10);
+        letter-spacing: 1px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(114, 112, 112);
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        letter-spacing: 1.5px;
+    }
+    
+    .child{
+        line-height: 2;
+    }
+    
+    .para{
+        text-align: center;
+        color: rgb(114, 112, 112);
+        letter-spacing: 1px;
+        width: 180%;
+        margin: auto;
+        margin-left: -85px;
+        font-size: 15px;
+    }
+}

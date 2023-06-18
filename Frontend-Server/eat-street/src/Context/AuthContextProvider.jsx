@@ -12,6 +12,7 @@ export default function AuthContextProvider({ children }) {
   let [city, setCity] = useState("");
   let [item, setItem] = useState("");
   let [time, setTime] = useState("");
+  let [total,setTotal]=useState(0);
   let logout = () => {
     setIsLogin(false);
   };
@@ -46,6 +47,8 @@ export default function AuthContextProvider({ children }) {
         setItem,
         time,
         setTime,
+        total,
+        setTotal
       }}
     >
       {children}
