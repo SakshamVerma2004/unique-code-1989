@@ -49,7 +49,7 @@ let Login = () => {
       audio.play();
       swal("Hi Boss", "Time to Play", "success");
       setTimeout(() => {
-        window.location.href = "/admin";
+        window.location.href = "/boss";
       }, 3000);
       return;
     }

@@ -14,7 +14,7 @@ let AllRoutes=()=>{
                 <Route path="/:location/:restaurantName" element={<IndiviualRestaurant/>}></Route>
                 <Route path="/cart" element={<Cart/>}></Route>
                 <Route path="/checkout" element={<Checkout/>}></Route>
-                <Route path="/admin" element={<Admin/>}></Route>
+                <Route path="/boss" element={<Admin/>}></Route>
             </Routes>
         </div>
     )
