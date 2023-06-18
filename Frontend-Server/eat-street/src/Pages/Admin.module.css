@@ -96,6 +96,10 @@ body{
     margin-top: 6px;
 }
 
+.detailDiv{
+    width: 10%;
+}
+
 .cartMainDiv{
     width: 100%;
     height: 200px;
