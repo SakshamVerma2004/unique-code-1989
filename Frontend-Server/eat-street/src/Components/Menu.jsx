@@ -1,8 +1,9 @@
 import { useSearchParams } from "react-router-dom";
 import styles from "./Menu.module.css";
 import swal from "sweetalert";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { AuthContext } from "../Context/AuthContextProvider";
+
 let Menu = ({
   best,
   chef,
@@ -16,50 +17,69 @@ let Menu = ({
   veg,
   votes,
 }) => {
-    let [alert,setAlert]=useState(false);
-    let [cart,setCart]=useState(false);
-    let [dis,setDis]=useState(false);
-    let {item,setItem,loginName,setLoginName,time,loginEmail}=useContext(AuthContext);
-    let alertHandler = () => {
-      setAlert(true);
-      setDis(true);
-      setItem(name);
-    
-      fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          image,
-          name,
-          price,
-          desc,
-          time,
-          loginName,
-          loginEmail
-        }),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    
-      setCart(true);
+  let [alert, setAlert] = useState(false);
+  let [cart, setCart] = useState(false);
+  let [dis, setDis] = useState(false);
+  let { item, setItem, loginName, setLoginName, time, loginEmail } = useContext(AuthContext);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setDis(window.innerWidth < 413);
     };
-    if(alert){
-        swal(item,"Item added to Cart","success");
-    }
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  let alertHandler = () => {
+    setAlert(true);
+    setItem(name);
+
+    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        image,
+        name,
+        price,
+        desc,
+        time,
+        loginName,
+        loginEmail,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    setCart(true);
+  };
+
+  if (alert) {
+    swal(item, "Item added to Cart", "success");
+  }
+
+  const nameStyle = {
+    fontSize: dis ? "10px" : ""
+  };
+
   return (
     <div className={styles.main}>
       <div className={styles.imgDiv}>
         <img src={image} alt="menu-item-image" className={styles.image} />
       </div>
       <div className={styles.descDiv}>
-        <h2 className={styles.name}>
+        <h2 className={styles.name} style={nameStyle}>
           {name}{" "}
           {veg === "yes" ? (
             <img
@@ -75,23 +95,26 @@ let Menu = ({
             />
           )}
           <div className={styles.options}>
-            {best==="yes"?<button className={styles.best}>Best Seller</button>:""}
-            {chef==="yes"?<button className={styles.chef}>Chef Special</button>:""}
-            {must==="yes"?<button className={styles.must}>Must Try</button>:""}
-            {spicy==="yes"?<button className={styles.spicy}>Spicy</button>:""}
+            {best === "yes" ? <button className={styles.best}>Best Seller</button> : ""}
+            {chef === "yes" ? <button className={styles.chef}>Chef Special</button> : ""}
+            {must === "yes" ? <button className={styles.must}>Must Try</button> : ""}
+            {spicy === "yes" ? <button className={styles.spicy}>Spicy</button> : ""}
           </div>
         </h2>
         <p className={styles.ratings}>
-          Ratings:- <span className={styles.rate}>{ratings}</span>
+          Ratings: <span className={styles.rate}>{ratings}</span>
         </p>
-        <p className={styles.votes}>Votes :- {votes}</p>
+        <p className={styles.votes}>Votes: {votes}</p>
         <h2 className={styles.price}>{price}</h2>
         <p className={styles.desc}>{desc}</p>
       </div>
       <div className={styles.addButton}>
-        <button className={styles.add} onClick={alertHandler} disabled={dis}>Add +</button>
+        <button className={styles.add} onClick={alertHandler} disabled={dis}>
+          Add +
+        </button>
       </div>
     </div>
   );
 };
+
 export default Menu;
