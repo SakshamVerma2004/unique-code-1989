@@ -135,9 +135,10 @@
     font-size: 10px;
     display: flex;
     gap:10px;
+    align-items: center;
   }
 
-  .cart{
-    font-size: 10px;
+  .item{
+    margin-top: 12px;
   }
 }

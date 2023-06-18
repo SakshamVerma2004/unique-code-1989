@@ -38,7 +38,7 @@ let Navbar = ({ city, handleSearch,cart }) => {
         <h4 className={styles.loginText}>Logged in as {"->"}</h4>
         <h4 className={styles.loginName}>{loginName}</h4>
       </div>
-      <h4 className={styles.items}>{cart} Items</h4>
+      <h4 className={styles.items}>{cart} <p className={styles.item}>Items</p></h4>
     </div>
   );
 };
