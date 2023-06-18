@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
 import styles from "./Login.module.css";
 import swal from "sweetalert";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContextProvider";
+
 let Login = () => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
-  let [admin,setAdmin]=useState(false);
+  let [admin, setAdmin] = useState(false);
   let {
     setSignupShow,
     setLoginShow,
@@ -20,12 +21,16 @@ let Login = () => {
     loginName,
     setLoginName,
     loginEmail,
-    setLoginEmail
+    setLoginEmail,
   } = useContext(AuthContext);
+
+  let navigate = useNavigate();
+
   let closeLogin = () => {
     setLoginShow(false);
     setLinksShow(true);
   };
+
   let SignupShowAndLoginClose = () => {
     setSignupShow(true);
     setLoginShow(false);
@@ -42,27 +47,32 @@ let Login = () => {
         console.log(error);
       });
   }, []);
+
   let loginHandler = (e) => {
     e.preventDefault();
+
     if (name === "Admin" && email === "admin@gmail.com") {
       const audio = new Audio(require("./boss2.mp3"));
       audio.play();
       swal("Hi Boss", "Time to Play", "success");
       setTimeout(() => {
-        window.location.href = "/boss";
+        navigate("/boss");
       }, 3000);
       return;
     }
+
     if (name.trim().length === 0) {
       swal("Invalid Name", "Name length should not be 0", "error");
       return;
     }
+
     if (!email.includes("@")) {
-      swal("Invalid Email", "Email Should contains @", "error");
+      swal("Invalid Email", "Email should contain @", "error");
       return;
     }
+
     if (email.trim().length === 0) {
-      swal("Invalid Email length", "Email length should not be 0", "error");
+      swal("Invalid Email Length", "Email length should not be 0", "error");
       return;
     }
 
@@ -99,12 +109,13 @@ let Login = () => {
     } else {
       swal(
         "Error",
-        "Please Enter Correct Credentials or Create the account first",
+        "Please enter correct credentials or create an account first",
         "error"
       );
       setIsLogin(false);
     }
   };
+
   return (
     <div className={styles.main}>
       <div className={styles.cross}>
@@ -136,9 +147,9 @@ let Login = () => {
       <hr></hr>
       <div>
         <h3 className={styles.para}>
-          New To QuickBite ?{" "}
+          New to QuickBite?{" "}
           <Link className={styles.link} onClick={SignupShowAndLoginClose}>
-            Create account
+            Create an account
           </Link>{" "}
         </h3>
       </div>
