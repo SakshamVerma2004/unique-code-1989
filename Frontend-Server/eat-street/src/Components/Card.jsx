@@ -35,8 +35,8 @@ let Card = ({
         </div>
       </div>
       <div className={styles.specialityDiv}>
-        <h3>{speciality}</h3>
-        <h3>{`${price} for one`}</h3>
+        <h3 className={styles.speciality}>{speciality}</h3>
+        <h3 className={styles.price}>{`${price} for one`}</h3>
       </div>
       <div className={styles.viewDetailsDiv}>
       <h3 className={styles.totalReviews}>{`Total ${reviewCount} people have given their ratings to this restaurant`}</h3>

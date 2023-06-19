@@ -59,12 +59,13 @@ a:hover{
         background-color: rgb(243, 245, 247);
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 250px;
     }
     
     .parent{
         margin: auto;
         border-bottom: 0.1px solid #ffffff;
-        width:100%;
+        width:105%;
         padding-bottom: 20px;
         margin-top: 10px;
         display: grid;
@@ -73,7 +74,7 @@ a:hover{
     }
     
     .heading{
-        margin-left: 70px;
+        margin-left: 40px;
         font-weight: 900;
         letter-spacing: 1.5px;
     }
@@ -107,7 +108,7 @@ a:hover{
         letter-spacing: 1px;
         width: 180%;
         margin: auto;
-        margin-left: -85px;
+        margin-left: -95px;
         font-size: 15px;
     }
 }

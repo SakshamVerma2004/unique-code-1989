@@ -149,11 +149,11 @@
       height:350px;
       background-size: cover;
       text-align: center;
-      width: 100%;
+      width: 105%;
     }
     .profile{
       color: white;
-      margin-left: 6%;
+      margin-left: 3%;
     }
     .navbar{
       display: flex;

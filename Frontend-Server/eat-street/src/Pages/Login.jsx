@@ -84,7 +84,12 @@ let Login = () => {
       setIsLogin(true);
       setLoginName(name);
       setLoginEmail(email);
-      swal("Success", "Login Successful", "success");
+      swal({
+        title: "Success",
+        text: "Login Successful",
+        icon: "success",
+        customClass: "alert"
+      });
       setLoginShow(false);
       setLinksShow(true);
       fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/users.json", {
@@ -107,11 +112,17 @@ let Login = () => {
           console.log(error);
         });
     } else {
-      swal(
-        "Error",
-        "Please enter correct credentials or create an account first",
-        "error"
-      );
+      swal({
+        title: 'Error',
+        text: 'Please enter correct credentials or create an account first',
+        icon: 'error',
+      });
+
+      swal({
+        title: 'Error',
+        text: 'Please enter correct credentials or create an account first',
+        icon: 'error'
+      });
       setIsLogin(false);
     }
   };

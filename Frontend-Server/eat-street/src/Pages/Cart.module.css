@@ -128,11 +128,12 @@
 
 @media all and (max-width:412px){
     .main{
-        width:80%;
+        width:99%;
         margin: auto;
         height: 100px;
         margin-top: 10px;
         border-radius: 5px;
+        margin-left: 5px;
     }
     
     .heading2{
@@ -142,17 +143,17 @@
     .card{
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        padding: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 20px;
+        height: 150px;
     }
     
     .options{
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 60%;
         justify-content: space-around;
         margin-right: 20px;
         padding: 5px;
@@ -160,14 +161,12 @@
     
     .mainDiv{
         display: flex;
-        gap:20px;
-        width: 70%;
-        margin-left: 20px;
     }
     
     .image{
-        width:40%;
-        height: 100px;
+        width:120px;
+        height: 150px;
+        margin-left: -20px;
     }
     
     .values{
@@ -175,15 +174,18 @@
     }
     
     .name{
-        font-size: 20px;
+        font-size: 15px;
         color: red;
-        margin-top: -5px;
+        margin-top: 10px;
+        margin-left: -10px;
         text-decoration: underline;
         letter-spacing: 1.5px;
     }
     
     .price{
         letter-spacing: 1.5px;
+        font-size: 15px;
+        margin-left: -10px;
         color: rgb(112, 114, 115);
         font-weight: 600;
         margin-top: -15px;
@@ -194,8 +196,9 @@
     }
     
     .options button{
-        width: 20%;
-        height: 30px;
+        width: 35px;
+        height: 45px;
+        padding: 10px;
         border-radius: 4px;
         color: red;
         font: 700;
@@ -214,6 +217,7 @@
     
     .qty{
         font-weight: 700;
+        font-size: 15px;
     }
     
     .total{
@@ -224,7 +228,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 40px;
+        margin-left: 75px;
     }
     
     .check{
@@ -247,7 +251,14 @@
     
     .btn{
         margin: auto;
-        margin-left: 37%;
+        margin-left: 31%;
         margin-top: -10.5%;
+    }
+
+    .remove{
+        margin-left: -10px;
+        color: red;
+        border: 1px solid red;
+        background-color: white;
     }
 }
