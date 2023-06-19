@@ -10,7 +10,7 @@ let Cart = () => {
   let [qty, setQty] = useState({});
   let [filteredData, setFilteredData] = useState([]);
   let { loginName, loginEmail, setTotal } = useContext(AuthContext);
-  
+
   let fetchData = () => {
     fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json")
       .then((res) => res.json())
@@ -122,9 +122,14 @@ let Cart = () => {
     }
   };
 
+  let Items = "Items";
+
   return (
     <div>
-      <Navbar handleSearch={handleSearch} cart={filteredData.length} />
+      <Navbar
+        handleSearch={handleSearch}
+        cart={<p className={styles.items}>{filteredData.length} Items</p>}
+      />
       <div className={styles.main}>
         <div className={styles.totalDiv}>
           <h1 className={styles.heading2}>Cart Items</h1>
@@ -135,7 +140,11 @@ let Cart = () => {
             filteredData.map((item) => (
               <div key={item.id} className={styles.card}>
                 <div className={styles.mainDiv}>
-                  <img src={item.image} className={styles.image} alt={item.name} />
+                  <img
+                    src={item.image}
+                    className={styles.image}
+                    alt={item.name}
+                  />
                   <div className={styles.values}>
                     <p className={styles.name}>{item.name}</p>
                     <p className={styles.price}>Price: {item.price}</p>
@@ -146,6 +155,7 @@ let Cart = () => {
                   <Button
                     onClick={() => updateQuantity(item.id, qty[item.id] - 1)}
                     text="-"
+                    disabled={qty[item.id]===1}
                   />
                   <p className={styles.qty}>Quantity: {qty[item.id] || 1}</p>
                   <Button
@@ -153,6 +163,12 @@ let Cart = () => {
                     text="+"
                   />
                 </div>
+                <button
+                  className={styles.remove}
+                  onClick={() => deleteItem(item.id)}
+                >
+                  Remove
+                </button>
               </div>
             ))
           ) : (

@@ -8,7 +8,6 @@ import { useContext, useState } from "react";
 import { useEffect } from "react";
 import Profile from "./Profile";
 import { AuthContext } from "../Context/AuthContextProvider";
-import Navbar from "../Navbar/Navbar";
 let HomePage = () => {
   let [displayProfile,setDisplayProfile]=useState(false);
   let [drop, setDrop] = useState(false);
@@ -79,7 +78,7 @@ let HomePage = () => {
     </div>
   );
   let profile = (
-    <div>
+    <div className={styles.profileItems}>
       <Link className={styles.profile} onClick={showDropdown}>
         {loginName}
       </Link>

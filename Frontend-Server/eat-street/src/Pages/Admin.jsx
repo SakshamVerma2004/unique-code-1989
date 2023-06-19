@@ -90,8 +90,8 @@ const Admin = () => {
           <Clock />
         </div>
         <div className={styles.userDiv}>
-          <h3>Number of Logged in Users: {login}</h3>
-          <h3>Number of Signed Up Users: {signUp}</h3>
+          <h3 className={styles.loggedin}>Number of Logged in Users: {login}</h3>
+          <h3 className={styles.loggedin}>Number of Signed Up Users: {signUp}</h3>
           <Link className={styles.link} to="/">Move Back to Home</Link>
         </div>
       </div>
