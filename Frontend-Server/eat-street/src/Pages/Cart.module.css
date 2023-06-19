@@ -120,6 +120,12 @@
     cursor: pointer;
 }
 
+.remove{
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
+
 .btn{
     margin: auto;
     margin-left: 24%;
