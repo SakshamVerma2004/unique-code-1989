@@ -54,7 +54,9 @@ let SignUp = () => {
     swal("Done","Account Created Successfully","success")
     setLinksShow(false);
     setSignupShow(false);
-    setLoginShow(true);
+    setTimeout(() => {
+      setLoginShow(true);
+    }, 1000);
   };
   return (
     <div className={styles.main}>

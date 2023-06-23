@@ -1,3 +1,7 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
 body{
     margin: 0px;
 }
@@ -93,6 +97,8 @@ body{
 
 .cartDiv{
     width: 100%;
+    overflow: scroll;
+    height: 600px;
 }
 
 .head2{
@@ -105,12 +111,11 @@ body{
 
 .cartMainDiv{
     width: 100%;
-    height: 400px;
+    height: 200px;
     margin-top: 10px;
     border-radius: 10px;
     display: flex;
     gap:30px;
-    overflow: scroll;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 

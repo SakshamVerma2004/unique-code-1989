@@ -20,7 +20,7 @@ let Menu = ({
   let [alert, setAlert] = useState(false);
   let [cart, setCart] = useState(false);
   let [dis, setDis] = useState(false);
-  let { item, setItem, loginName, setLoginName, time, loginEmail } = useContext(AuthContext);
+  let { item, setItem, loginName, setLoginName, time, loginEmail, qty, setQty } = useContext(AuthContext);
   
   useEffect(() => {
     const handleResize = () => {
@@ -28,8 +28,6 @@ let Menu = ({
     };
 
     window.addEventListener("resize", handleResize);
-
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -52,6 +50,7 @@ let Menu = ({
         time,
         loginName,
         loginEmail,
+        qty
       }),
     })
       .then((res) => res.json())

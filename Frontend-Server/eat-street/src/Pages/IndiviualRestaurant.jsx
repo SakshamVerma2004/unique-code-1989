@@ -1,4 +1,4 @@
-import { useParams, Navigate } from "react-router-dom";
+ import { useParams, Navigate } from "react-router-dom";
 import styles from "./IndiviualRestaurant.module.css";
 import Navbar from "../Navbar/Navbar";
 import { useContext, useEffect, useState } from "react";

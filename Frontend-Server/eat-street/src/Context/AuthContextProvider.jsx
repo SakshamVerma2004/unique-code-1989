@@ -13,6 +13,7 @@ export default function AuthContextProvider({ children }) {
   let [item, setItem] = useState("");
   let [time, setTime] = useState("");
   let [total,setTotal]=useState(0);
+  let [qty,setQty]=useState(1);
   let logout = () => {
     setIsLogin(false);
   };
@@ -48,7 +49,9 @@ export default function AuthContextProvider({ children }) {
         time,
         setTime,
         total,
-        setTotal
+        setTotal,
+        qty,
+        setQty
       }}
     >
       {children}
