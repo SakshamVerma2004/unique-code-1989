@@ -1,3 +1,7 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
 .main{
     width:60%;
     margin: auto;
@@ -130,6 +134,13 @@
     margin: auto;
     margin-left: 24%;
     margin-top: -4.5%;
+}
+
+.remove{
+    color: red;
+    margin-right: 1px;
+    border: 1px solid red;
+    background-color: white;
 }
 
 @media all and (max-width:412px){

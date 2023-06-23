@@ -1,0 +1,4533 @@
+{
+  "extra": {
+    "-NYIjImB9EpLDaPuJMSi": {
+      "desc": "Crunch your way through our cheesy garlic sticks. [Fat-11.3 per 100 g, Protein-7.6 per 100 g, Carbohydrate-44.9 per 100 g, Sugar-0.6 per 100 g, Calories-311.7 k.cal]Nutritional information per 100g",
+      "image": "https://b.zmtcdn.com/data/dish_photos/d2f/3127059f5b4a74acba0f70e37d75cd2f.jpg?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Garlic Bread Sticks",
+      "price": "₹ 160",
+      "time": "25 minutes"
+    },
+    "-NYIjJbpdf8ov3ukD6c9": {
+      "desc": "A pizza with Indian twist of Onions,Chicken Seekh Kabab & Korma Dip. [Fat-14 per 100 g, Protein-7.4 per 100 g, Carbohydrate-22.1 per 100 g, Sugar-1.9 per 100 g, Calories-244.1 K.cal]Nutritional information per 100g",
+      "image": "https://b.zmtcdn.com/data/dish_photos/1be/81382cfc48dc7d04160ead20547f11be.jpg?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Korma Delight",
+      "price": "₹ 225",
+      "time": "25 minutes"
+    },
+    "-NYIjKgtclg4oaKm8baI": {
+      "desc": "Small muffin infused with warm chocolate! Vintage Dessert",
+      "image": "https://b.zmtcdn.com/data/dish_photos/f82/637e78db610179c3ee1ac6ae4c042f82.jpg?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Choco Lava Cake",
+      "price": "₹ 200",
+      "time": "25 minutes"
+    },
+    "-NYIjPKTpUWSlf_bmxCE": {
+      "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+      "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Cheesy Fries",
+      "price": "₹ 299",
+      "time": "31 minutes"
+    },
+    "-NYIjQ2vsz9op0DThm1z": {
+      "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+      "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Veg Surprise",
+      "price": "₹ 549",
+      "time": "31 minutes"
+    },
+    "-NYIjQr3DbD97dnu1qlJ": {
+      "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+      "image": "https://b.zmtcdn.com/data/dish_photos/2ac/03c10b0097d30e5fd485965c627d32ac.png?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Mc Aloo Tikki",
+      "price": "₹ 179",
+      "time": "31 minutes"
+    },
+    "-NYIjRZwWLtgS4ItJRHP": {
+      "desc": "Tender paneer patty with a fiery, crunchy batter coating, dressed with fresh veggies and seasonings, topped with creamy sauce and a dash of mustard and melted cheese.",
+      "image": "https://b.zmtcdn.com/data/dish_photos/901/802b82218c9aef28be50dcd6d5213901.png?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Big Spicy Paneer Wrap",
+      "price": "₹ 110",
+      "time": "31 minutes"
+    },
+    "-NYIjSQmbhpUEt1pf-o5": {
+      "desc": "Chunky juicy grilled chicken patty with fresh and premium ingredients such as jalapeño, onion, Cheddar cheese, tomatoes and crunchy lettuce, dressed with classic Habanero sauce.",
+      "image": "https://b.zmtcdn.com/data/dish_photos/8c5/4107460d38d3d5ed7a8139d3cd47c8c5.png?fit=around|130:130&crop=130:130;*,*",
+      "loginEmail": "sakshamverma798@gmail.com",
+      "loginName": "Saksham Verma",
+      "name": "Chicken Maharaja Mac",
+      "price": "₹ 165",
+      "time": "31 minutes"
+    }
+  },
+  "orders": [
+    {
+      "from": "",
+      "id": 1,
+      "img": "",
+      "name": "",
+      "price": "",
+      "qty": ""
+    }
+  ],
+  "restaurants": [
+    {
+      "_id": 1,
+      "address": "Sector 22 , Chandigarh",
+      "city": "Chandigarh",
+      "image": "https://th.bing.com/th/id/OIP.PSeZaQaxroUDwa50JBkYcwHaEo?w=249&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Made by marinated chicken in a yogert and spice mixture",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c37/254f46d83d8548f11f2dcbedfdc3bc37.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Mutton Curry with Naan",
+          "price": "₹ 320",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "71"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Flavorful Punjabi chicken dish in a dry curry, spiced up with cardamom, yogurt and whole red chillies",
+          "image": "https://b.zmtcdn.com/data/dish_photos/534/af83bb9bed011c42896dc428eb8f8534.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Rara Chicken",
+          "price": "₹ 380",
+          "ratings": "4.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Super Special Veg Thali (Butter paneer+Mushroom Duplex+Dal Makhni+2xroti+Jeera Rice + Salad Chutney)",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d23/82e555610c9edc1510514281a23a5d23.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Thali",
+          "price": "₹ 299",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Marinated in a marinade made with yogurt/curd, cream and spices and then cooked",
+          "image": "https://b.zmtcdn.com/data/dish_photos/bfa/ded9a8d3f6a173174c8e3a8353b4fbfa.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Soya Chaap Tikka",
+          "price": "₹ 360",
+          "rating": "2.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "6"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/ae9/8b405fc4d31728807d5d469479eb0ae9.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Biryani with Gravy",
+          "price": "₹ 460",
+          "ratings": "4.4",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "26"
+        }
+      ],
+      "name": "Baba Chicken",
+      "open": "12 noon - 11 pm",
+      "price": "₹ 400",
+      "pure-veg": "no",
+      "ratings": "4.0",
+      "review-count": "123",
+      "speciality": "North Indian , Mughlai",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 2,
+      "address": "Sector 9 , Chandigarh",
+      "city": "Chandigarh",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/120976/517f929243a8a987437661453a5b45e0_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Tandoori Panneer Onion and Cheeze",
+          "image": "https://b.zmtcdn.com/data/dish_photos/24c/6894a0d0b97c807a8312000d8a8ad24c.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Half N Half Large Pizza",
+          "price": "₹ 219",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "64"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Melted Chocolate inside cupcake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/abc/ba5991e2e5c03a08bcc92245a61b7abc.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco Lava Cake",
+          "price": "₹ 69",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "65"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Super Special Veg Thali (Butter paneer+Mushroom Duplex+Dal Makhni+2xroti+Jeera Rice + Salad Chutney)",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f8b/ae0dab3b89b4d866e59fad0017ce8f8b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "American Dream Pizza",
+          "price": "₹ 219",
+          "ratings": "4.6",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "70"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Onion, Marinated paneer cubes topped with extra cheese and tandoori sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/95b/62af5a6ad536c99ee3d406349d81c95b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Panneer Singh Pizza",
+          "price": "₹ 84",
+          "rating": "4.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "44"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Have a try with pink sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/db5/ce54f64918dc3ec852b6621da3f57db5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Pink Sauce Pasta",
+          "price": "₹ 129",
+          "ratings": "3.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "6"
+        }
+      ],
+      "name": "Captain Sam's",
+      "open": "10 am - 12 pm",
+      "price": "₹ 300",
+      "pure-veg": "yes",
+      "ratings": "3.7",
+      "review-count": "300",
+      "speciality": "Pizza , Fast Food , Deserts",
+      "time": "29 minutes"
+    },
+    {
+      "_id": 3,
+      "address": "Ambala Road , Zikarpur , Chandigarh",
+      "city": "Chandigarh",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/3/18731553/6bb470623adb3547b1c955f5d835f186.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "city": "Chandigarh",
+          "desc": "Dal, mutter paneer, raita, jeera rice, lachha paratha, roti 2 pcs, gulab jamun",
+          "image": "https://b.zmtcdn.com/data/dish_photos/09e/d319d548a6fdc8c5e60ae00c99ce509e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Thali",
+          "price": "₹ 249",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "94"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Tikka Marinated with panneer and sauces",
+          "image": "https://b.zmtcdn.com/data/dish_photos/aa0/e4cc39d56ac107e80193d4866dc61aa0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Panner Tikka",
+          "price": "₹ 300",
+          "ratings": "3.6",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "6"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Black Grain with lots of butter and added spices for desi taste",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b34/1b169189e3be75540cc09640fad59b34.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Dal Makhani",
+          "price": "₹ 110",
+          "ratings": "4.2",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "173"
+        },
+        {
+          "best": "no",
+          "chef": "yes",
+          "desc": "Fried Cauliflower with peas and spices",
+          "image": "https://b.zmtcdn.com/data/dish_photos/91f/3918c84034f1db5f3d923a322ff1391f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Gobhi Mutter Masala",
+          "price": "₹ 130",
+          "rating": "4.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "25"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Cheese chilli with dry and spicy flavour",
+          "image": "https://b.zmtcdn.com/data/dish_photos/2a5/148cd5bb9bc69a56e7e733fecaa342a5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chinese Chilli Dry",
+          "price": "₹ 270",
+          "ratings": "4.6",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "8"
+        }
+      ],
+      "name": "Nukkar Dhaba",
+      "open": "9 am - 12 pm",
+      "price": "₹ 400",
+      "pure-veg": "yes",
+      "ratings": "4.1",
+      "review-count": "129",
+      "speciality": "North Indian , Chinese",
+      "time": "21 minutes"
+    },
+    {
+      "_id": 4,
+      "address": "Sector 8 , Chandigarh",
+      "city": "Chandigarh",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cd2/6ca51330825ac01b0a2ec8dc5f002cd2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Peri-Peri Chicken Pizza",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Quintessentially veg with capsicum, sweet corn and flavoured chunks of paneer. [Fat-12.1 per 100 g, Protein-10.1 per 100 g, Carbohydrate-34 per 100 g, Sugar-0 per 100 g, Calories-285.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c93/f857859c7bba4ce21af5b6faf4d75c93.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Spring Fling Pizza",
+          "price": "₹ 175",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese. [Fat-10.5 per 100 g, Protein-3.9 per 100 g, Carbohydrate-9.2 per 100 g, Sugar-4.2 per 100 g, Calories-146.9 k.cal] Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0b8/e30a4ccd34862cfa21a985a8d17740b8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Americano Pasta Veg",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Loaded with Premium Red Velvet Lava",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b71/85b57569c3bab3cfd5f2e21b1f4f8b71.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Red Velvet Lava Cake",
+          "price": "₹ 110",
+          "rating": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "A classic pizza with onions,BBQ Chicken & Cheese. [Fat-7 per 100 g, Protein-10 per 100 g, Carbohydrate-43.5 per 100 g, Sugar-6.2 per 100 g, Calories-277.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/022/fb6295761f3af27c69c28806d70a5022.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Super BBQ",
+          "price": "₹ 165",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "38"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "109",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 5,
+      "address": "Alante Mall , Chandigarh",
+      "city": "Chandigarh",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/1/19114061/c56abfe45c41472ab299772561cbf1fe.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Hyderabadi Chicken Biryani with boneless chicken pieces and served with Raita",
+          "image": "https://b.zmtcdn.com/data/dish_photos/083/fea109359d28232b505f172e10311083.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Dum Biryani Boneless",
+          "price": "₹ 349",
+          "ratings": "3.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Soya chaaps flavored in Hyderabadi spices layered with Biryani Rice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c1/33dd22e9b8af68e6e93a30a299cf97c1.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Soya Biryani Mini + Raita",
+          "price": "₹ 169",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "61"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Soya chaaps flavored in Hyderabadi spices layered with Biryani Rice served with Raita.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c4/8e391c11d386e7d16bf7ce8c867ce7c4.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Soya Chaap Biryani",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Soft, melt in your mouth, fried dumplings, traditionally made of thickened milk and soaked in rose-flavored sugar syrup",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9c4/65abc1fccf485c698f4d0b9b9cf4d9c4.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Gulab Jamun",
+          "price": "₹ 69",
+          "rating": "4.2",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Healthy yet delicious Soya Chaap Biryani is prepared with soya chaaps marinated in flavorful Hyderabadi spices which are then layered with fiber-rich brown rice and yogurt – making way for a guilt-free version of your traditional biryani recipe.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/439/37967e08f3a98459bc4cfc6060df9439.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Soya Biryani With Brown Rice",
+          "price": "₹ 299",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "35"
+        }
+      ],
+      "name": "Biryani Blues",
+      "open": "11 am - 10 pm",
+      "price": "₹ 450",
+      "pure-veg": "no",
+      "ratings": "3.8",
+      "review-count": "79",
+      "speciality": "Biryani , Desserts , Beverages , Healthy Food",
+      "time": "39 minutes"
+    },
+    {
+      "_id": 6,
+      "address": "Ranjit Avenue , Amritsar",
+      "city": "Amritsar",
+      "image": "https://b.zmtcdn.com/data/pictures/9/20525839/fb51be136899361035848019b857beb7_o2_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Baked Patty and fresh vegetables",
+          "image": "https://b.zmtcdn.com/data/dish_photos/987/ab0dbc44969f02e92b3dd90b76111987.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veggie Burger",
+          "price": "₹ 115",
+          "ratings": "3.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Seasonal Salty Fries",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a8e/c6d08e868191cb6eae85be1887b8fa8e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Seasonal Salty Fries",
+          "price": "₹ 169",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Waffles with Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a38/04bae2e145419fc0cf33d22d7f212a38.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "The Fruit Bliz Waffle",
+          "price": "₹ 160",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Added Vegies with Paneer",
+          "image": "https://b.zmtcdn.com/data/dish_photos/fd5/0e6de8d7e3344876f48a437c8c0f8fd5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Peppy Paneer Pizza",
+          "price": "₹ 339",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chocolate Syrup With Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/84e/f41785c82faeb3522c0c7cf923b7284e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chocolate Sundae",
+          "price": "₹ 299",
+          "ratings": "4.3",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "The Cream Way",
+      "open": "12 am - 2 am",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "2.8",
+      "review-count": "31",
+      "speciality": "Biryani , Desserts , Beverages , Healthy Food",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 7,
+      "address": "Amritsar Junction , Amritsar",
+      "city": "Amritsar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/19347490/c561d299019d726c935904a9722b5547_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chicken stewed in an onion and tomato based sauce, flavoured with ginger, garlic, tomato puree, chilli peppers and a variety of spices and includes turmeric, cumin, coriander, cinnamon.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/94b/4f8f6bebcd1a9f030851d729e49d794b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Curry",
+          "price": "₹ 270",
+          "ratings": "3.3",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Egg dish made with boiled eggs cooked in onion tomato gravy",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6d3/0344ae1a9c7c9f92d3e762edb102c6d3.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Egg Curry",
+          "price": "₹ 270",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Mouth watering biryani drenched in aromatic flavours and laden with tender chicken pieces",
+          "image": "https://b.zmtcdn.com/data/dish_photos/8e3/0064abcc9f9213cbbc6e317a754858e3.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Biryani",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Added Vegies with Paneer",
+          "image": "https://b.zmtcdn.com/data/dish_photos/779/e6fdc5109a6bea683be654a7c6dba779.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Aloo Parantha",
+          "price": "₹ 85",
+          "rating": "3.8",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chicken thats cooked using Indian vegetables and Chinese flavours.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/587/8e37b6c4d5ab51fe37affcce86c4a587.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Tandoori Chicken",
+          "price": "₹ 370",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Pritam Dhaba",
+      "open": "8 am - 11:30 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.1",
+      "review-count": "76",
+      "speciality": "North Indian , Chinese , Pizza , Biryani",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 8,
+      "address": "Lorence Road , Amritsar",
+      "city": "Amritsar",
+      "image": "https://b.zmtcdn.com/data/pictures/3/2200153/19a62bef987a325fe6b262f1f2746e3d.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Sweet Made with ghee",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0d0/3ea69d481ed8aad031540d0658eb00d0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Pinni",
+          "price": "₹ 210",
+          "ratings": "3.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Made with milk boiled for around 8 hours",
+          "image": "https://b.zmtcdn.com/data/dish_photos/78c/dce7f84298649fcf4b384326a5ac878c.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Milk Burfi",
+          "price": "₹ 160",
+          "ratings": "4.4",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Made with Kaju and other dry fruits",
+          "image": "https://b.zmtcdn.com/data/dish_photos/628/6da8b5fece1d48a5ce59b1612023e628.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Kaaju Barfi",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Mathi made with pickle",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b2f/4a4b8dbc78e5edab528027565d2bab2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Achari Matthi",
+          "price": "₹ 370",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A Delicious syrupy dessert made from chena [cottage cheese], semolina and sugar.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/49c/c66ff6acbbfaa6fd070602fa69e6049c.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Rasgulla",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Kanha Sweets",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.2",
+      "review-count": "87",
+      "speciality": "Mithai , Street Food , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 9,
+      "address": "Rani ka baag Road , Amritsar",
+      "city": "Amritsar",
+      "image": "https://b.zmtcdn.com/data/pictures/6/2200386/3971ef4d3fc676c9898f2cfbe45db4fb.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "SIndian Butter Chicken (Murgh Makhani) Authentic in house made sauce of butter, spices, tomato and ginger garlic mix with pieces of chicken",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f9f/5dc09f072b51946e110e4b151a673f9f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Butter Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Traditional north indian spices and chickpeas tossed in a delicious gravy",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6a0/09626c137b2bdfa7d084aa7b44eb16a0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Raajma",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Stir fried Indian cottage cheese along with butter/ghee, onions,tomatoes, ginger and garlic. It's a simple dish to be served at any time of the day.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/91d/a1b35bf1e2b4c8cd8e59ba30be5e991d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Bhurji",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Refreshing curd based side dish loaded with crispy fried boondi balls with the addition of handmade Indian spices to add flavours.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a79/25fc44ebc1519c5af186b542d0750a79.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Boondi Raita",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Mushrooms coated with a flavorful marinade and then cooked in a Tandoor.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f05/1929109c70086dcdb668bd9dcf3e6f05.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Mushroom Tikka",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Kale Da Dhaba",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.4",
+      "review-count": "31",
+      "speciality": "North Indian , Street Food , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 10,
+      "address": "Lorence Road , Amritsar",
+      "city": "Amritsar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/3/18344123/35398759caa146492dbb51026d95cc1f.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our signature veg patty Whopper.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cc6/7982d2af03dece4b6f58a66ecb208cc6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Whopper",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Flame Grilled Tandoori Chicken, veg khurchan, soft square masala buns. It's Tandoorilicious.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c31/8bf3ab324756a300edeff94516514c31.jpg?fit=around|130:130&crop=130:130;*,**",
+          "must": "no",
+          "name": "Chicken Tandoori Burger",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce. Comes with Fries (M) + Pepsi (M)",
+          "image": "https://b.zmtcdn.com/data/dish_photos/135/b2a0cc85a53134ba273cc30efdb00135.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy veg combo",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Crispy Chicken Wings",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Soft & Fluffy vanilla cake with blueberry flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a9f/2cda4e0d71669be5cc873250b9228a9f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Vanilla Blueberry Muffin",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Burger King",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.6",
+      "review-count": "31",
+      "speciality": "North Indian , Burger , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 11,
+      "address": "Panaji , Goa",
+      "city": "Goa",
+      "image": "https://b.zmtcdn.com/data/pictures/6/19469416/264a1248e46da532e01ebd502f475ece.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Grilled Fish with salad",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baf/0a3c15d9abd61e4d2e8dac005bc58baf.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "King Fish Fry",
+          "price": "₹ 400",
+          "ratings": "3.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Paneer Butter masala with roti",
+          "image": "https://b.zmtcdn.com/data/dish_photos/03e/d894db085b7ec13e8320e128c51a503e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Butter Masala",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Veg Manchurian is a tasty Indo Chinese dish of fried veggie balls in a spicy, sweet and tangy sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/e9d/1e528fd9839853fd2488e04e2b8c3e9d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Manchurian",
+          "price": "₹ 225",
+          "ratings": "4.2",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Prawns dipped in a curry with cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/440/c76e2f0835a86e1d4f37effeaf32a440.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Prawns Curry",
+          "price": "₹ 375",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "\\Fried Rice with egg",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f8d/f8b644e49e973943dadce5717de9cf8d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Egg Fried Rice",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "35"
+        }
+      ],
+      "name": "Goenkar",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.8",
+      "review-count": "31",
+      "speciality": "North Indian , Burger , Sea Food , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 12,
+      "address": "Bardes , Goa",
+      "city": "Goa",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/4c9/e00776aa2b87f7c34b03f38e782814c9_1619021586.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "This luxurious dessert features a smooth and creamy mousse made with rich ferrero rocher chocolate.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/8e5/23306becb7f6667e497859ba779d28e5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Ferrerorocher Mousse",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A chilled beverage made by combining coffee with ice and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/401/a43730842401e05acb828513b3035401.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cold Coffee",
+          "price": "₹ 160",
+          "ratings": "4.6",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Tuna, pan roasted corn and jalapeños.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/daf/9f7ae30b160307f79dd8f2ec94abedaf.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Tuna and Cold Corn Sandwich",
+          "price": "₹ 225",
+          "ratings": "3.4",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Lemon iced tea is a cool and refreshing beverage made by steeping tea leaves in hot water, adding lemon juice and sugar, and then chilling it with ice. It's perfect for hot summer days and is a popular drink around the world.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/900/40675a1f48d8889f4be8d8fb33b21900.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Lemon Iced Tea",
+          "price": "₹ 375",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chicken ham with Cheddar on a butter croissant.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b6d/0c98ec7acf1d5f159a8b674afe2d7b6d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Ham and Cheeze Croissald",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "35"
+        }
+      ],
+      "name": "Bakers Street",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "219",
+      "speciality": "North Indian , Burger , Sea Food , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 13,
+      "address": "Bardess , Goa",
+      "city": "Goa",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cd2/6ca51330825ac01b0a2ec8dc5f002cd2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Peri-Peri Chicken Pizza",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Quintessentially veg with capsicum, sweet corn and flavoured chunks of paneer. [Fat-12.1 per 100 g, Protein-10.1 per 100 g, Carbohydrate-34 per 100 g, Sugar-0 per 100 g, Calories-285.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c93/f857859c7bba4ce21af5b6faf4d75c93.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Spring Fling Pizza",
+          "price": "₹ 175",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese. [Fat-10.5 per 100 g, Protein-3.9 per 100 g, Carbohydrate-9.2 per 100 g, Sugar-4.2 per 100 g, Calories-146.9 k.cal] Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0b8/e30a4ccd34862cfa21a985a8d17740b8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Americano Pasta Veg",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Loaded with Premium Red Velvet Lava",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b71/85b57569c3bab3cfd5f2e21b1f4f8b71.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Red Velvet Lava Cake",
+          "price": "₹ 110",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A classic pizza with onions,BBQ Chicken & Cheese. [Fat-7 per 100 g, Protein-10 per 100 g, Carbohydrate-43.5 per 100 g, Sugar-6.2 per 100 g, Calories-277.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/022/fb6295761f3af27c69c28806d70a5022.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Super BBQ",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "18"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "109",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 14,
+      "address": "Panaji , Goa",
+      "city": "Goa",
+      "image": "https://b.zmtcdn.com/data/pictures/6/19073556/67e4275f0e34d76d2e326e6342a0d874.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Prawns Fry, Rice, Prawns Curry, Bhaji/ Sabji, Tisre, Crushed Papad, Pickle(Brinjal ,Tora, Mackrel Parra, Khare ), Fish Cutlet, Chicken Macroni Soup, 1 Dessert, Salad",
+          "image": "https://b.zmtcdn.com/data/dish_photos/507/fb42ce96e87121b4421c192952d5b507.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Prawns Thali",
+          "price": "₹ 299",
+          "ratings": "4.2",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Delicious chonak fish coated with semolina and spices, then fried to crispy perfection, served with a side of spicy chutney.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a8d/cc97d153434b13d66e9c85af59901a8d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chonak Rawa Fry",
+          "price": "₹ 549",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Reachado Bangda Fry, Rice, Prawns Curry, Bhaji/ Sabji, Tisre, Crushed Papad, Pickle(Brinjal ,Tora, Mackrel Parra, Khare ), Fish Cutlet, Chicken Macroni Soup, 1 Dessert, Salad",
+          "image": "https://b.zmtcdn.com/data/dish_photos/959/ca63545c9e3443b140dac6b254d0d959.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Richardo Bangla Thali ",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Creation of Bombil. For extreme spicy lovers only. Best accompanied with any of your meal if you wish to spice up your buzz of life.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/04b/823d3cf9c7b047aa94ef9979ebd5d04b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Bombil Bomb",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "yes",
+          "desc": "Fragrant rice cooked with mixed vegetables, nuts, and a blend of Indian spices.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/fb6/a4ba54446c1e3709cdb83fa9a748efb6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Pulao",
+          "price": "₹ 165",
+          "ratings": "4.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "18"
+        }
+      ],
+      "name": "Bombil Restaurant",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.1",
+      "review-count": "19",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 15,
+      "address": "Panaji , Goa",
+      "city": "Goa",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/20503764/8b9f4ee0bf361a2d2db1e22b568e7783.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Meal for 1 (save up to 47%) this real blockbuster meal comes with 1 veg sriracha burrito, 1 crunchy pinto bean taco topped with zesty ranch sauce, 1 Mexican fries, 1 cinnamon twist and 1 beverage of choice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9d3/29c067537092347ca0e2c519611a59d3.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Big Bell Box Veg",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "7 layer burrito is a complete meal in itself. It is a grilled soft tortilla filled 7 different including fajita veg, pinto beans, crispy potato bites, Mexican seasoned rice, tangy salsa, nacho cheese sauce & lava sauce, it's mind blowing.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d2f/688822c306f8c9d323e2493d21675d2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "7 Layer Burrito",
+          "price": "₹ 549",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Who doesn't like to bite into a golden-brown crispy chicken tender? It goes well with any dip of your choice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/dd7/0329d85f142a3ddc6f54a4a1bcc5ddd7.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chicken",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "It's all you want just in a bowl filled with Mexican seasoned rice, tangy salsa, pinto beans, creamy jalapeno sauce, sour cream & Pulled Chicken..",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9e0/119537bf00d9e2302dc398507e2ae9e0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Ultimate Rice Bowl Non-Veg",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Our signature fries topped with mexican seasoning and served with signature nacho cheese. It's the king of fries - trust us.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/65b/fad883661133d65e6a613fbf468d465b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheesy Fries",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "18"
+        }
+      ],
+      "name": "Taco Bell",
+      "open": "12 mid-night - 1 am",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.3",
+      "review-count": "21",
+      "speciality": " Pasta , Mexican Fast Food",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 16,
+      "address": "Sector 22 , New Delhi",
+      "city": "Delhi NCR",
+      "image": "https://th.bing.com/th/id/OIP.PSeZaQaxroUDwa50JBkYcwHaEo?w=249&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Made by marinated chicken in a yogert and spice mixture",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c37/254f46d83d8548f11f2dcbedfdc3bc37.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Mutton Curry with Naan",
+          "price": "₹ 320",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "71"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Flavorful Punjabi chicken dish in a dry curry, spiced up with cardamom, yogurt and whole red chillies",
+          "image": "https://b.zmtcdn.com/data/dish_photos/534/af83bb9bed011c42896dc428eb8f8534.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Rara Chicken",
+          "price": "₹ 380",
+          "ratings": "4.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Super Special Veg Thali (Butter paneer+Mushroom Duplex+Dal Makhni+2xroti+Jeera Rice + Salad Chutney)",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d23/82e555610c9edc1510514281a23a5d23.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Thali",
+          "price": "₹ 299",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Marinated in a marinade made with yogurt/curd, cream and spices and then cooked",
+          "image": "https://b.zmtcdn.com/data/dish_photos/bfa/ded9a8d3f6a173174c8e3a8353b4fbfa.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Soya Chaap Tikka",
+          "price": "₹ 360",
+          "rating": "2.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "6"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/ae9/8b405fc4d31728807d5d469479eb0ae9.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Biryani with Gravy",
+          "price": "₹ 460",
+          "ratings": "4.0",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "26"
+        }
+      ],
+      "name": "Baba Chicken",
+      "open": "12 noon - 11 pm",
+      "price": "₹ 400",
+      "pure-veg": "no",
+      "ratings": "4.4",
+      "review-count": "213",
+      "speciality": "Janpat Nagar , Delhi",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 17,
+      "address": "Connaught Place , New Delhi",
+      "city": "Delhi NCR",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/1/171/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheesy Fries",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Surprise",
+          "price": "₹ 549",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/2ac/03c10b0097d30e5fd485965c627d32ac.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Mc Aloo Tikki",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Tender paneer patty with a fiery, crunchy batter coating, dressed with fresh veggies and seasonings, topped with creamy sauce and a dash of mustard and melted cheese.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/901/802b82218c9aef28be50dcd6d5213901.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Big Spicy Paneer Wrap",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chunky juicy grilled chicken patty with fresh and premium ingredients such as jalapeño, onion, Cheddar cheese, tomatoes and crunchy lettuce, dressed with classic Habanero sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/8c5/4107460d38d3d5ed7a8139d3cd47c8c5.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Maharaja Mac",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "18"
+        }
+      ],
+      "name": "KFC",
+      "open": "10 am - 11 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "3.6",
+      "review-count": "109",
+      "speciality": "Beverages , Fast Food , Burger",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 18,
+      "address": "Patel Nagar , New Delhi",
+      "city": "Delhi NCR",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/7/18859527/45b26cb5b8b2f54ba5fb5a6386ec28fa.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Crispy capsicum onion tomato tandoori paneer with mozerella cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cb9/5ec7a2b40b1752afc60415512a283cb9.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Pizza",
+          "price": "₹ 299",
+          "ratings": "4.6",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Crispy capsicum onion tomato tandoori paneer with mozerella cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/703/a674b016a42b22e26118719f45cb4703.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Farm Fresh Pizza",
+          "price": "₹ 549",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Crispy capsicum onion tomato with chilly paneer , mozerella cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7a5/93c4dedb08ddf34eafa1f5176a1d97a5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chilli Paneer Pizza",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Blend Cheese and mozzarella cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/594/c29c49e0b0eda6c13ebe1ce5cd48c594.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Margarita Pizza",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Capsicum, Onion and Tomato Pizza [7 inches]+Margherita Pizza [7 inches]+Corn Cheese Pizza [7 inches]+Mushroom Cheese Pizza [7 inches]",
+          "image": "https://b.zmtcdn.com/data/dish_photos/703/a674b016a42b22e26118719f45cb4703.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Extra Cheese Capsicum Onion Cheese Pizza",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "18"
+        }
+      ],
+      "name": "Pizza Pirates",
+      "open": "10 am - 11 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "3.2",
+      "review-count": "12",
+      "speciality": "Beverages , Fast Food , Burger",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 19,
+      "address": "Janpat Nagar , Delhi",
+      "city": "Delhi NCR",
+      "image": "https://b.zmtcdn.com/data/pictures/6/19073556/67e4275f0e34d76d2e326e6342a0d874.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Prawns Fry, Rice, Prawns Curry, Bhaji/ Sabji, Tisre, Crushed Papad, Pickle(Brinjal ,Tora, Mackrel Parra, Khare ), Fish Cutlet, Chicken Macroni Soup, 1 Dessert, Salad",
+          "image": "https://b.zmtcdn.com/data/dish_photos/507/fb42ce96e87121b4421c192952d5b507.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Prawns Thali",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Delicious chonak fish coated with semolina and spices, then fried to crispy perfection, served with a side of spicy chutney.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a8d/cc97d153434b13d66e9c85af59901a8d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chonak Rawa Fry",
+          "price": "₹ 549",
+          "ratings": "4.7",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Reachado Bangda Fry, Rice, Prawns Curry, Bhaji/ Sabji, Tisre, Crushed Papad, Pickle(Brinjal ,Tora, Mackrel Parra, Khare ), Fish Cutlet, Chicken Macroni Soup, 1 Dessert, Salad",
+          "image": "https://b.zmtcdn.com/data/dish_photos/959/ca63545c9e3443b140dac6b254d0d959.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Richardo Bangla Thali ",
+          "price": "₹ 179",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Creation of Bombil. For extreme spicy lovers only. Best accompanied with any of your meal if you wish to spice up your buzz of life.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/04b/823d3cf9c7b047aa94ef9979ebd5d04b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Bombil Bomb",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Fragrant rice cooked with mixed vegetables, nuts, and a blend of Indian spices.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/fb6/a4ba54446c1e3709cdb83fa9a748efb6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Pulao",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "18"
+        }
+      ],
+      "name": "Bombil Restaurant",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "123",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 20,
+      "address": "Cannaught Place , New Delhi",
+      "city": "Delhi NCR",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cd2/6ca51330825ac01b0a2ec8dc5f002cd2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Peri-Peri Chicken Pizza",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Quintessentially veg with capsicum, sweet corn and flavoured chunks of paneer. [Fat-12.1 per 100 g, Protein-10.1 per 100 g, Carbohydrate-34 per 100 g, Sugar-0 per 100 g, Calories-285.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c93/f857859c7bba4ce21af5b6faf4d75c93.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Spring Fling Pizza",
+          "price": "₹ 175",
+          "ratings": "3.8",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese. [Fat-10.5 per 100 g, Protein-3.9 per 100 g, Carbohydrate-9.2 per 100 g, Sugar-4.2 per 100 g, Calories-146.9 k.cal] Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0b8/e30a4ccd34862cfa21a985a8d17740b8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Americano Pasta Veg",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Loaded with Premium Red Velvet Lava",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b71/85b57569c3bab3cfd5f2e21b1f4f8b71.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Red Velvet Lava Cake",
+          "price": "₹ 110",
+          "rating": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A classic pizza with onions,BBQ Chicken & Cheese. [Fat-7 per 100 g, Protein-10 per 100 g, Carbohydrate-43.5 per 100 g, Sugar-6.2 per 100 g, Calories-277.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/022/fb6295761f3af27c69c28806d70a5022.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Super BBQ",
+          "price": "₹ 165",
+          "ratings": "4.3",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "18"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.1",
+      "review-count": "15",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 21,
+      "address": "Pakhowal Road , Ludhiana",
+      "city": "Ludhiana",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/c96/7c86331d3f1be5fb792e61089e592c96_1602089472.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Pizza Garnished with corn and cheese heavily",
+          "image": "https://b.zmtcdn.com/data/dish_photos/2fb/99b9d59accf9030ac6908c67fa45f2fb.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Corn Pizza",
+          "price": "₹ 320",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "71"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Made with Capsicum, cheddar cheese, pizza base, pizza sauce, mozzarella cheese.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c16/3a3b909fdd4d5cb1c777b2e38c452c16.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Capsicum Pizza",
+          "price": "₹ 380",
+          "ratings": "4.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Prepared with Hand made pizza dough topped with Onion, Paneer, cheddar cheese, pizza sauce, mozzarella cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b50/d4b935e8f57240f7f89bd145c1376b50.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Onion and Paneer Pizza",
+          "price": "₹ 299",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Made with Onion, capsicum, mushrooms, tomatoes, Italian tomato pizza sauce, Italian 100% whole milk mozzarella.cheese",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b5e/78d7783f7b226e9d67dd9727a05d5b5e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veggie lover pizza",
+          "price": "₹ 360",
+          "rating": "2.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "6"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "About Red Sauce Pasta Recipe: Delicious red sauce pasta, slow-cooked in tangy tomato sauce. Served in a simple, authentic Italian way. ... The luscious red sauce cooked with pasta brings a delectable dish to relish with family and friends.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b91/ce915b286030773d68e2f440e2da7b91.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Italiana Red Sauce pasta",
+          "price": "₹ 460",
+          "ratings": "4.0",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "26"
+        }
+      ],
+      "name": "Fire House Pizza",
+      "open": "12 noon - 11 pm",
+      "price": "₹ 400",
+      "pure-veg": "no",
+      "ratings": "3.8",
+      "review-count": "213",
+      "speciality": "Pizza , Fast Food",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 22,
+      "address": "Civil Lines , Ludhiana",
+      "city": "Ludhiana",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/3/18344123/35398759caa146492dbb51026d95cc1f.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our signature veg patty Whopper.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cc6/7982d2af03dece4b6f58a66ecb208cc6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veg Whopper",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yno",
+          "chef": "no",
+          "desc": "Flame Grilled Tandoori Chicken, veg khurchan, soft square masala buns. It's Tandoorilicious.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c31/8bf3ab324756a300edeff94516514c31.jpg?fit=around|130:130&crop=130:130;*,**",
+          "must": "no",
+          "name": "Chicken Tandoori Burger",
+          "price": "₹ 160",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce. Comes with Fries (M) + Pepsi (M)",
+          "image": "https://b.zmtcdn.com/data/dish_photos/135/b2a0cc85a53134ba273cc30efdb00135.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy veg combo",
+          "price": "₹ 225",
+          "ratings": "3.4",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Crispy Chicken Wings",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Soft & Fluffy vanilla cake with blueberry flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a9f/2cda4e0d71669be5cc873250b9228a9f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Vanilla Blueberry Muffin",
+          "price": "₹ 200",
+          "ratings": "3.8",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Burger King",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.1",
+      "review-count": "31",
+      "speciality": "North Indian , Burger , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 23,
+      "address": "Civil Lines , Ludhiana",
+      "city": "Ludhiana",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/15090/5a4fd6f18e0dba1039a42b9b466015a2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Your favourite cheese cubes marinated with tandoori sauce, spices and condiments, cooked in an oven to give a smoky taste. Served with a choice of nutritious veggies and a freshly baked bread. Serving size : 15 cm - 224 g / 410 kcal , 30 cm - 448 g / 820 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0d2/828915cc237da8540d3b2563a1bd10d2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Sub",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Double the yum with double portion of roasted paneer tikka, along with nutritious veggies and your favourite sauces, inside a tortilla of your choice. Serving size : 301 g / 623 kcal. Allergens - Contains wheat, barley, oats, milk, soy. Values include 11.5\"\" multigrain wrap, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f9d/1bf5b3b5b2ebab8030c2026647e47f9d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Signature wrap",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Hearty chicken marinated with flavorful ingredients like yogurt, garlic and ginger, oven cooked with trademark tandoori tikka taste and served with veggies and sauces in your favourite bread. Serving size : 15 cm - 224 g / 341 kcal , 30 cm - 448 g / 682 kcal. Allergens - Contains wheat, rye, barley, oats, soy, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c19/16eb20c7104b4ecba3e2c68ed71f5c19.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Tandoori Chiken Tikka Sandwich",
+          "price": "₹ 225",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken strips glazed with teriyaki sauce, combined with your favourite veggies and topped with our signature sweet onion sauce served hot in a freshly baked bread of your choice. Serving size : 15 cm - 224 g / 311 kcal , 30 cm - 448 g / 622 kcal. Allergens - Contains wheat, rye, barley, oats, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7e6/4e7ea0e49b7802e14da0b6f7a1d067e6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Teriyaki Sandwich",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Enjoy the simpler things, the veggie delite salad is simply delish. A pile of your favourite veggies, finished with the dressing of your choice. Nutritious. Delicious. All for you. Serving size : 273 g / 52 kcal. Allergens - NA. Values include lettuce, tomatoes, green peppers, cucumbers, onions and olives. Values do not include salad dressing or croutons, unless noted.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/65b/6809d104c21dfd93380ad3b25e4c665b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veggie Delight Salad",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Subway",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.6",
+      "review-count": "43",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 24,
+      "address": "Civil Lines , Ludhiana",
+      "city": "Ludhiana",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/5/18766895/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Sweet and juicy golden corn with our in house sauce. [Fat-5 per 100 g, Protein-10.1 per 100 g, Carbohydrate-50.2 per 100 g, Sugar-6 per 100 g, Calories-286.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c0/2feab594167c57f6f9e201f926bc67c0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Sweet Corn Pizza",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crunch your way through our cheesy garlic sticks. [Fat-11.3 per 100 g, Protein-7.6 per 100 g, Carbohydrate-44.9 per 100 g, Sugar-0.6 per 100 g, Calories-311.7 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d2f/3127059f5b4a74acba0f70e37d75cd2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "4.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A pizza with Indian twist of Onions,Chicken Seekh Kabab & Korma Dip. [Fat-14 per 100 g, Protein-7.4 per 100 g, Carbohydrate-22.1 per 100 g, Sugar-1.9 per 100 g, Calories-244.1 K.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/1be/81382cfc48dc7d04160ead20547f11be.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Korma Delight",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A Tri Fecta of Chicken. Chicken Tikka, BBQ Chicken & Smoked Chicken. [Fat-7.9 per 100 g, Protein-14.6 per 100 g, Carbohydrate-32.5 per 100 g, Sugar-2 per 100 g, Calories-259.1 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6a6/ede68135ada1334b7b5c47f345aff6a6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Pizza",
+          "price": "₹ 130",
+          "rating": "4.3",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Small muffin infused with warm chocolate! Vintage Dessert",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f82/637e78db610179c3ee1ac6ae4c042f82.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco Lava Cake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.1",
+      "review-count": "63",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 25,
+      "address": "Ludhiana Junction , Ludhiana",
+      "city": "Ludhiana",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/15054/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheezy Fries",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "New Chicken McWings® in a lip-smacking Chilli and Lemon flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62d/b85c0086f7d9f52e7921b9825fa0162d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Mc Wings",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Aloo Tikki Burger",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Bite-sized pieces of breaded boneless chicken, fried and served hot with smoke-flavoured Barbeque Sauce or Mustard Sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/050/f828d299c85374c6374c676c37b21050.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Nugets",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A rich smooth creamy cold coffee made with coffee powder and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/551/06d765f62c2d422b0642c7aeb5d26551.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Old Coffee",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "McDonald's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.5",
+      "review-count": "54",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 26,
+      "address": "Model Town , Patiala",
+      "city": "Patiala",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/5/18766895/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Sweet and juicy golden corn with our in house sauce. [Fat-5 per 100 g, Protein-10.1 per 100 g, Carbohydrate-50.2 per 100 g, Sugar-6 per 100 g, Calories-286.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c0/2feab594167c57f6f9e201f926bc67c0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Sweet Corn Pizza",
+          "price": "₹ 400",
+          "ratings": "3.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crunch your way through our cheesy garlic sticks. [Fat-11.3 per 100 g, Protein-7.6 per 100 g, Carbohydrate-44.9 per 100 g, Sugar-0.6 per 100 g, Calories-311.7 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d2f/3127059f5b4a74acba0f70e37d75cd2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A pizza with Indian twist of Onions,Chicken Seekh Kabab & Korma Dip. [Fat-14 per 100 g, Protein-7.4 per 100 g, Carbohydrate-22.1 per 100 g, Sugar-1.9 per 100 g, Calories-244.1 K.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/1be/81382cfc48dc7d04160ead20547f11be.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Korma Delight",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "yes",
+          "desc": "A Tri Fecta of Chicken. Chicken Tikka, BBQ Chicken & Smoked Chicken. [Fat-7.9 per 100 g, Protein-14.6 per 100 g, Carbohydrate-32.5 per 100 g, Sugar-2 per 100 g, Calories-259.1 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6a6/ede68135ada1334b7b5c47f345aff6a6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Pizza",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Small muffin infused with warm chocolate! Vintage Dessert",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f82/637e78db610179c3ee1ac6ae4c042f82.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco Lava Cake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "75",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 27,
+      "address": "Lahori Gate , Patiala",
+      "city": "Patiala",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/15054/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Cheezy Fries",
+          "price": "₹ 400",
+          "ratings": "4.4",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "New Chicken McWings® in a lip-smacking Chilli and Lemon flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62d/b85c0086f7d9f52e7921b9825fa0162d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Mc Wings",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Aloo Tikki Burger",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Bite-sized pieces of breaded boneless chicken, fried and served hot with smoke-flavoured Barbeque Sauce or Mustard Sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/050/f828d299c85374c6374c676c37b21050.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Nugets",
+          "price": "₹ 130",
+          "rating": "4.3",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A rich smooth creamy cold coffee made with coffee powder and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/551/06d765f62c2d422b0642c7aeb5d26551.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Old Coffee",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "McDonald's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.9",
+      "review-count": "41",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 28,
+      "address": "Model Town , Patiala",
+      "city": "Patiala",
+      "image": "https://b.zmtcdn.com/data/pictures/7/18731987/dbce1eae75b2499754e892b75026d33b.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Name says it all.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/89e/14584a905f73ecf059b5913580d4e89e.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Cubes of paneer in sweet thick gravy of tomato, onions bell peppers, delicately seasoned with rare herbs and spices.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/ac3/d493cf13c4804e74e7a501a4c9454ac3.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Lababdaar",
+          "price": "₹ 160",
+          "ratings": "4.2",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Part of all India's DNA delicacy of whole urad, simmered overnight finished with tomato puree, cream tampered with butter.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/8c0/1253c932ba36bb3423d45ddd606ec8c0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Daal Zafrani",
+          "price": "₹ 225",
+          "ratings": "4.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Baked Bread",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a0f/69dc9d8fc847ec6b03df1c6304184a0f.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Butter Naan",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Baked Bread with lasooni flavour",
+          "image": "https://b.zmtcdn.com/data/dish_photos/ea0/95952f6e82eae249cef9678c53b11ea0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Lasooni Naan",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Zafran",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "3.4",
+      "review-count": "37",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 29,
+      "address": "Model Town , Patiala",
+      "city": "Patiala",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/2/18939242/35398759caa146492dbb51026d95cc1f.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crispy Chicken patty burger, our best seller. Enjoy Twice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/e80/6f3b73aa0bd0e7172768d1e22ea31e80.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chicken",
+          "price": "₹ 400",
+          "ratings": "4.3",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The Perfect Crispy Partner",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f92/7888af1c9fd32e02c767301122718f92.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Medium Fries",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Boneless Wings",
+          "price": "₹ 225",
+          "ratings": "3.5",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Airy and creamy chocolate mousse topped with chocolate ganache and choco chips",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f4b/64ebe52a7278c266226a36fccc56ef4b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chocolate Mousse Cup",
+          "price": "₹ 130",
+          "rating": "4.2",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our Signature Chocolate Thick Shake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/955/e2fce4d6b6602ff4f18223cdd2d14955.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chocolate Thick Shake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Burger King",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "3.9",
+      "review-count": "39",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 30,
+      "address": "Model Town , Patiala",
+      "city": "Patiala",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/18732656/b9e1524a6ac4ffcf085cc410099833a9.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Crispy Chicken patty burger, our best seller. Enjoy Twice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/e80/6f3b73aa0bd0e7172768d1e22ea31e80.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chicken",
+          "price": "₹ 400",
+          "ratings": "4.1",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The Perfect Crispy Partner",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f92/7888af1c9fd32e02c767301122718f92.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Medium Fries",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Boneless Wings",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Airy and creamy chocolate mousse topped with chocolate ganache and choco chips",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f4b/64ebe52a7278c266226a36fccc56ef4b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chocolate Mousse Cup",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our Signature Chocolate Thick Shake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/955/e2fce4d6b6602ff4f18223cdd2d14955.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chocolate Thick Shake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "KFC",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.2",
+      "review-count": "45",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 31,
+      "address": "Sion , Mumbai",
+      "city": "Mumbai",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/5/18766895/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Sweet and juicy golden corn with our in house sauce. [Fat-5 per 100 g, Protein-10.1 per 100 g, Carbohydrate-50.2 per 100 g, Sugar-6 per 100 g, Calories-286.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c0/2feab594167c57f6f9e201f926bc67c0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Sweet Corn Pizza",
+          "price": "₹ 400",
+          "ratings": "3.3",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crunch your way through our cheesy garlic sticks. [Fat-11.3 per 100 g, Protein-7.6 per 100 g, Carbohydrate-44.9 per 100 g, Sugar-0.6 per 100 g, Calories-311.7 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d2f/3127059f5b4a74acba0f70e37d75cd2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A pizza with Indian twist of Onions,Chicken Seekh Kabab & Korma Dip. [Fat-14 per 100 g, Protein-7.4 per 100 g, Carbohydrate-22.1 per 100 g, Sugar-1.9 per 100 g, Calories-244.1 K.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/1be/81382cfc48dc7d04160ead20547f11be.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Korma Delight",
+          "price": "₹ 225",
+          "ratings": "3.6",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A Tri Fecta of Chicken. Chicken Tikka, BBQ Chicken & Smoked Chicken. [Fat-7.9 per 100 g, Protein-14.6 per 100 g, Carbohydrate-32.5 per 100 g, Sugar-2 per 100 g, Calories-259.1 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6a6/ede68135ada1334b7b5c47f345aff6a6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Pizza",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Small muffin infused with warm chocolate! Vintage Dessert",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f82/637e78db610179c3ee1ac6ae4c042f82.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco Lava Cake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "37",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 32,
+      "address": "Dadar Shivaji Park , Mumbai",
+      "city": "Mumbai",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/15054/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheezy Fries",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "New Chicken McWings® in a lip-smacking Chilli and Lemon flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62d/b85c0086f7d9f52e7921b9825fa0162d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Mc Wings",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Aloo Tikki Burger",
+          "price": "₹ 225",
+          "ratings": "3.3",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Bite-sized pieces of breaded boneless chicken, fried and served hot with smoke-flavoured Barbeque Sauce or Mustard Sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/050/f828d299c85374c6374c676c37b21050.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Nugets",
+          "price": "₹ 130",
+          "rating": "4.2",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A rich smooth creamy cold coffee made with coffee powder and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/551/06d765f62c2d422b0642c7aeb5d26551.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Old Coffee",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "McDonald's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "57",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 33,
+      "address": "Bandra , Mumbai",
+      "city": "Mumbai",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/2/18939242/35398759caa146492dbb51026d95cc1f.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crispy Chicken patty burger, our best seller. Enjoy Twice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/e80/6f3b73aa0bd0e7172768d1e22ea31e80.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The Perfect Crispy Partner",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f92/7888af1c9fd32e02c767301122718f92.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Medium Fries",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Boneless Wings",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Airy and creamy chocolate mousse topped with chocolate ganache and choco chips",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f4b/64ebe52a7278c266226a36fccc56ef4b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chocolate Mousse Cup",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Our Signature Chocolate Thick Shake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/955/e2fce4d6b6602ff4f18223cdd2d14955.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chocolate Thick Shake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Burger King",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.4",
+      "review-count": "61",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 34,
+      "address": "Lower Parel , Mumbai",
+      "city": "Mumbai",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/18732656/b9e1524a6ac4ffcf085cc410099833a9.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crispy Chicken patty burger, our best seller. Enjoy Twice.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/e80/6f3b73aa0bd0e7172768d1e22ea31e80.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The Perfect Crispy Partner",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f92/7888af1c9fd32e02c767301122718f92.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Medium Fries",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "4pcs Boneless Chicken Bites",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d94/3578e6e3452cdc628263ed6d5cac6d94.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Boneless Wings",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Airy and creamy chocolate mousse topped with chocolate ganache and choco chips",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f4b/64ebe52a7278c266226a36fccc56ef4b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chocolate Mousse Cup",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Our Signature Chocolate Thick Shake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/955/e2fce4d6b6602ff4f18223cdd2d14955.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chocolate Thick Shake",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "KFC",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "3.8",
+      "review-count": "34",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 35,
+      "address": "Sion , Mumbai",
+      "city": "Mumbai",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/1/47211/a0c3bcc09b1448a7138beda386f8db21.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hot & spicy chicken pizza with a new spicy peri peri sauce and topped with chicken keema & red paprika.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b37/abb475762834411a25fdd6396e73cb37.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Blazing Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+          "image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Delightful combination of onion, capsicum, tomato & grilled mushroom. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Farm House Pizza",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken sausage, pepper barbecue chicken & peri-peri chicken in a fresh pan crust",
+          "image": "https://b.zmtcdn.com/data/dish_photos/05b/9ad3bf1b3b9680d315d2841c2b71405b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Non-Veg Loaded Pizza",
+          "price": "₹ 130",
+          "rating": "4.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9d2/0fa448c8d1113386c031b9e57095e9d2.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco-Lava Cake",
+          "price": "₹ 200",
+          "ratings": "3.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Domino's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "21",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 36,
+      "address": "Shastri Nagar , Jalandhar",
+      "city": "Jalandhar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/1/47211/a0c3bcc09b1448a7138beda386f8db21.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hot & spicy chicken pizza with a new spicy peri peri sauce and topped with chicken keema & red paprika.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b37/abb475762834411a25fdd6396e73cb37.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Blazing Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+          "image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Delightful combination of onion, capsicum, tomato & grilled mushroom. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Farm House Pizza",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken sausage, pepper barbecue chicken & peri-peri chicken in a fresh pan crust",
+          "image": "https://b.zmtcdn.com/data/dish_photos/05b/9ad3bf1b3b9680d315d2841c2b71405b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Non-Veg Loaded Pizza",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "yes",
+          "desc": "Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9d2/0fa448c8d1113386c031b9e57095e9d2.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco-Lava Cake",
+          "price": "₹ 200",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Domino's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.0",
+      "review-count": "",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 37,
+      "address": "Model Town , Jalandhar",
+      "city": "Jalandhar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/15090/5a4fd6f18e0dba1039a42b9b466015a2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Your favourite cheese cubes marinated with tandoori sauce, spices and condiments, cooked in an oven to give a smoky taste. Served with a choice of nutritious veggies and a freshly baked bread. Serving size : 15 cm - 224 g / 410 kcal , 30 cm - 448 g / 820 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0d2/828915cc237da8540d3b2563a1bd10d2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Sub",
+          "price": "₹ 400",
+          "ratings": "4.3",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Double the yum with double portion of roasted paneer tikka, along with nutritious veggies and your favourite sauces, inside a tortilla of your choice. Serving size : 301 g / 623 kcal. Allergens - Contains wheat, barley, oats, milk, soy. Values include 11.5\"\" multigrain wrap, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f9d/1bf5b3b5b2ebab8030c2026647e47f9d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Signature wrap",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Hearty chicken marinated with flavorful ingredients like yogurt, garlic and ginger, oven cooked with trademark tandoori tikka taste and served with veggies and sauces in your favourite bread. Serving size : 15 cm - 224 g / 341 kcal , 30 cm - 448 g / 682 kcal. Allergens - Contains wheat, rye, barley, oats, soy, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c19/16eb20c7104b4ecba3e2c68ed71f5c19.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Tandoori Chiken Tikka Sandwich",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken strips glazed with teriyaki sauce, combined with your favourite veggies and topped with our signature sweet onion sauce served hot in a freshly baked bread of your choice. Serving size : 15 cm - 224 g / 311 kcal , 30 cm - 448 g / 622 kcal. Allergens - Contains wheat, rye, barley, oats, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7e6/4e7ea0e49b7802e14da0b6f7a1d067e6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Teriyaki Sandwich",
+          "price": "₹ 130",
+          "rating": "3.7",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Enjoy the simpler things, the veggie delite salad is simply delish. A pile of your favourite veggies, finished with the dressing of your choice. Nutritious. Delicious. All for you. Serving size : 273 g / 52 kcal. Allergens - NA. Values include lettuce, tomatoes, green peppers, cucumbers, onions and olives. Values do not include salad dressing or croutons, unless noted.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/65b/6809d104c21dfd93380ad3b25e4c665b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veggie Delight Salad",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Subway",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.3",
+      "review-count": "58",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 38,
+      "address": "Urban Estate , Jalandhar",
+      "city": "Jalandhar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/5/18766895/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Sweet and juicy golden corn with our in house sauce. [Fat-5 per 100 g, Protein-10.1 per 100 g, Carbohydrate-50.2 per 100 g, Sugar-6 per 100 g, Calories-286.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7c0/2feab594167c57f6f9e201f926bc67c0.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Sweet Corn Pizza",
+          "price": "₹ 400",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Crunch your way through our cheesy garlic sticks. [Fat-11.3 per 100 g, Protein-7.6 per 100 g, Carbohydrate-44.9 per 100 g, Sugar-0.6 per 100 g, Calories-311.7 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d2f/3127059f5b4a74acba0f70e37d75cd2f.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A pizza with Indian twist of Onions,Chicken Seekh Kabab & Korma Dip. [Fat-14 per 100 g, Protein-7.4 per 100 g, Carbohydrate-22.1 per 100 g, Sugar-1.9 per 100 g, Calories-244.1 K.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/1be/81382cfc48dc7d04160ead20547f11be.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Korma Delight",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "yes",
+          "desc": "A Tri Fecta of Chicken. Chicken Tikka, BBQ Chicken & Smoked Chicken. [Fat-7.9 per 100 g, Protein-14.6 per 100 g, Carbohydrate-32.5 per 100 g, Sugar-2 per 100 g, Calories-259.1 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6a6/ede68135ada1334b7b5c47f345aff6a6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yno",
+          "name": "Chicken Pizza",
+          "price": "₹ 130",
+          "rating": "4.6",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Small muffin infused with warm chocolate! Vintage Dessert",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f82/637e78db610179c3ee1ac6ae4c042f82.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco Lava Cake",
+          "price": "₹ 200",
+          "ratings": "4.2",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.5",
+      "review-count": "63",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 39,
+      "address": "Nakodar Road , Jalandhar",
+      "city": "Jalandhar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/15054/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheezy Fries",
+          "price": "₹ 400",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "New Chicken McWings® in a lip-smacking Chilli and Lemon flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62d/b85c0086f7d9f52e7921b9825fa0162d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Mc Wings",
+          "price": "₹ 160",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Aloo Tikki Burger",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Bite-sized pieces of breaded boneless chicken, fried and served hot with smoke-flavoured Barbeque Sauce or Mustard Sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/050/f828d299c85374c6374c676c37b21050.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Nugets",
+          "price": "₹ 130",
+          "rating": "4.4",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A rich smooth creamy cold coffee made with coffee powder and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/551/06d765f62c2d422b0642c7aeb5d26551.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Old Coffee",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "McDonald's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.4",
+      "review-count": "55",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 40,
+      "address": "Shastri Nagar , Jalandhar",
+      "city": "Jalandhar",
+      "image": "https://b.zmtcdn.com/data/pictures/1/18888111/ff7327b35867b978beee27a9d4794f1f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chiled flavours with Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/411/2d90b5dadbb420a07204e582881d4411.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Rabri Faluda",
+          "price": "₹ 400",
+          "ratings": "4.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Condenced milk with sweet flavour",
+          "image": "https://b.zmtcdn.com/data/dish_photos/225/47946706a2609f1258bef8a22e2ba225.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Ras Malai",
+          "price": "₹ 160",
+          "ratings": "3.9",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Refreshing flavour with fruits benfits",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f45/f679e5a4da416b12429df3756bd68f45.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Fruit Cream",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Huge Glass of Chilled Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d60/6348b1b5678119302f712c90b4078d60.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Super Cup Ice Cream",
+          "price": "₹ 130",
+          "rating": "4.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Flavoured milk with almond flavour",
+          "image": "https://b.zmtcdn.com/data/dish_photos/348/e5e6f8f025a1ce1d26309c9848df5348.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Milk Badaam",
+          "price": "₹ 200",
+          "ratings": "4.8",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Super Creamica Sweets",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.1",
+      "review-count": "19",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 41,
+      "address": "Tajganj , Agra",
+      "city": "Agra",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cd2/6ca51330825ac01b0a2ec8dc5f002cd2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Peri-Peri Chicken Pizza",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Quintessentially veg with capsicum, sweet corn and flavoured chunks of paneer. [Fat-12.1 per 100 g, Protein-10.1 per 100 g, Carbohydrate-34 per 100 g, Sugar-0 per 100 g, Calories-285.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c93/f857859c7bba4ce21af5b6faf4d75c93.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Spring Fling Pizza",
+          "price": "₹ 175",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese. [Fat-10.5 per 100 g, Protein-3.9 per 100 g, Carbohydrate-9.2 per 100 g, Sugar-4.2 per 100 g, Calories-146.9 k.cal] Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0b8/e30a4ccd34862cfa21a985a8d17740b8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Americano Pasta Veg",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Loaded with Premium Red Velvet Lava",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b71/85b57569c3bab3cfd5f2e21b1f4f8b71.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Red Velvet Lava Cake",
+          "price": "₹ 110",
+          "rating": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "A classic pizza with onions,BBQ Chicken & Cheese. [Fat-7 per 100 g, Protein-10 per 100 g, Carbohydrate-43.5 per 100 g, Sugar-6.2 per 100 g, Calories-277.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/022/fb6295761f3af27c69c28806d70a5022.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Super BBQ",
+          "price": "₹ 165",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "38"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "109",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 42,
+      "address": " Agra Cantt , Agra",
+      "city": "Agra",
+      "image": "https://b.zmtcdn.com/data/pictures/5/3400685/f9d0870b4381972329f5e4a4ae832dfe_o2_featured_v2.jpg?output-format=webp",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c3b/2c23d58b0dd9a972cea01a5edb1a6c3b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Fry",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "It is a  Panner cooked in slow flame and marinated along with yogurt",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f97/769e0a2c0ff09dc9b6404b20bd0bff97.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka",
+          "price": "₹ 175",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Marinated Mutton Pieces Sauteed With Indian Style Masala Paste And Finished Inside A Handi.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/405/f3919eb1dcc86ee58924ec1cbb4f0405.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Mutton Handi",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A wholesome dish with chicken, fresh veggies and cheese wrapped in a soft yet crispy paratha - perfect to satisfy your hunger pangs.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/359/1b94def5f62a7c1aed2fe58e2b762359.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Plain Chicken Roll",
+          "price": "₹ 110",
+          "rating": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "50"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "A rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter",
+          "image": "https://b.zmtcdn.com/data/dish_photos/98b/1a3e1ccd45ef18a2223c16550430798b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Paneer Butter Masala",
+          "price": "₹ 165",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "38"
+        }
+      ],
+      "name": "Shan-E-Hind",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "286",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 43,
+      "address": " Agra Cantt , Agra",
+      "city": "Agra",
+      "image": "https://b.zmtcdn.com/data/pictures/7/3400737/4013ca11b3aa0ad89d4c2a0736564866.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Serving since 1982! Wok tossed potato fingers tossed in our in house spicy sauce garnished with spring onions.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/3cd/5a1c752dc7b43f05e32a64f46a47d3cd.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Crispy Chilli Potato",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Diced chicken tossed in a sweet and tangy sauce flavoured with a hint of dry red chilli topped with roasted peanuts",
+          "image": "https://b.zmtcdn.com/data/dish_photos/117/7f7de6400fb3ae1e90950e385d524117.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Kung Pao Chicken",
+          "price": "₹ 175",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Marinated Mutton Pieces Sauteed With Indian Style Masala Paste And Finished Inside A Handi.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/405/f3919eb1dcc86ee58924ec1cbb4f0405.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Mutton Handi",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A wholesome dish with chicken, fresh veggies and cheese wrapped in a soft yet crispy paratha - perfect to satisfy your hunger pangs.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/359/1b94def5f62a7c1aed2fe58e2b762359.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Plain Chicken Roll",
+          "price": "₹ 110",
+          "rating": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "50"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "A rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter",
+          "image": "https://b.zmtcdn.com/data/dish_photos/98b/1a3e1ccd45ef18a2223c16550430798b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Paneer Butter Masala",
+          "price": "₹ 165",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "38"
+        }
+      ],
+      "name": "Berco's - If You Love Chinese",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.2",
+      "review-count": "286",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 44,
+      "address": "Civil Lines , Agra",
+      "city": "Agra",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/15090/5a4fd6f18e0dba1039a42b9b466015a2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Your favourite cheese cubes marinated with tandoori sauce, spices and condiments, cooked in an oven to give a smoky taste. Served with a choice of nutritious veggies and a freshly baked bread. Serving size : 15 cm - 224 g / 410 kcal , 30 cm - 448 g / 820 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0d2/828915cc237da8540d3b2563a1bd10d2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Sub",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Double the yum with double portion of roasted paneer tikka, along with nutritious veggies and your favourite sauces, inside a tortilla of your choice. Serving size : 301 g / 623 kcal. Allergens - Contains wheat, barley, oats, milk, soy. Values include 11.5\"\" multigrain wrap, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f9d/1bf5b3b5b2ebab8030c2026647e47f9d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Paneer Tikka Signature wrap",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Hearty chicken marinated with flavorful ingredients like yogurt, garlic and ginger, oven cooked with trademark tandoori tikka taste and served with veggies and sauces in your favourite bread. Serving size : 15 cm - 224 g / 341 kcal , 30 cm - 448 g / 682 kcal. Allergens - Contains wheat, rye, barley, oats, soy, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c19/16eb20c7104b4ecba3e2c68ed71f5c19.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Tandoori Chiken Tikka Sandwich",
+          "price": "₹ 225",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken strips glazed with teriyaki sauce, combined with your favourite veggies and topped with our signature sweet onion sauce served hot in a freshly baked bread of your choice. Serving size : 15 cm - 224 g / 311 kcal , 30 cm - 448 g / 622 kcal. Allergens - Contains wheat, rye, barley, oats, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7e6/4e7ea0e49b7802e14da0b6f7a1d067e6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Teriyaki Sandwich",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Enjoy the simpler things, the veggie delite salad is simply delish. A pile of your favourite veggies, finished with the dressing of your choice. Nutritious. Delicious. All for you. Serving size : 273 g / 52 kcal. Allergens - NA. Values include lettuce, tomatoes, green peppers, cucumbers, onions and olives. Values do not include salad dressing or croutons, unless noted.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/65b/6809d104c21dfd93380ad3b25e4c665b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Veggie Delight Salad",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Subway",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.9",
+      "review-count": "43",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 45,
+      "address": "Civil Lines , Agra",
+      "city": "Agra",
+      "image": "https://b.zmtcdn.com/data/pictures/0/3400010/a75b634483dfd7c3b0962afe0e840865.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A classic Punjabi combo consisting of fluffy bathura served with thick and indulgent chickpea gravy.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c16/b4eec73dd4e14ac3c3f06792229efc16.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Channa Bhatura",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Two Butter-laden pavs accompanied by a delicious and healthy gravy of mashed vegetables, topped with butter.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7f6/cde9ef8a7bc3fb8c36c682545e5847f6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Pao Bhaji",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Kaju katli is a traditional Indian dessert characterized by its diamond shape, made with cashew nuts, sugar and cardamom powder.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/835/1956826098463d11c68e20ec4d100835.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Kaaju Katli",
+          "price": "₹ 225",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Golgappa is stuffed crispy puffed puris with seasoned chickpeas and potatoes.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7a6/31473e1ea6add420ce8e6d55c27177a6.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Gol Gappe",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Veg Manchurian is a tasty Indo Chinese dish of fried veggie balls in a spicy, sweet and tangy sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7ff/db42e176f46ffa36118321fdab4337ff.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Manchoorian Gravy",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "GMB Sweets",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.0",
+      "review-count": "43",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 46,
+      "address": "Main Bazar , Jaipur",
+      "city": "Jaipur",
+      "image": "https://b.zmtcdn.com/data/dish_photos/8ca/28ec727b26b536fe44fb181781e3c8ca.jpg?output-format=webp",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The king of fruits adds a delightful flavour to your scoop. The perfect taste of Rich and Pure Ratnagiri Alphonso Mango in every bite. Serving; 5 Serves, Serving Size",
+          "image": "Alphonso Mango Ice Cream 500ml",
+          "must": "no",
+          "name": "Alphonso Mango Ice Cream 500ml",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A scoop of Ice Cream Loaded with Cashews, Almonds, Pistas and Kishmishs. Needs no further description. Serving; 5 Serves, Serving Size",
+          "image": "https://b.zmtcdn.com/data/dish_photos/25c/4a537235e38c2ed8f1f47951b4b2e25c.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Dryfruit Overload Ice Cream 500ml",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Now India's favourite Gulab Jamun in ice cream. Lose yourself in its rich aroma & indulgent texture. Serving; 5 Serves, Serving Size",
+          "image": "https://b.zmtcdn.com/data/dish_photos/4f8/a150844ff939be2111136e25771f44f8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Gulab Jamun Ice Cream 500ml",
+          "price": "₹ 225",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Matka Dryfruit Malai Kulfi [Pack of 2]",
+          "image": "https://b.zmtcdn.com/data/dish_photos/334/866d92a45daf230706d1249b5b5c2334.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Gol Gappe",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The all-time favorite Desi Ice Cream - Malai Stick Kulfi, is here to be ordered right away",
+          "image": "https://b.zmtcdn.com/data/dish_photos/5a7/9d24371b5fa7a6144afb3aa353c045a7.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Stick Malai Kulfi",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Scoop Man Cones",
+      "open": "8 am - 10 pm",
+      "price": "₹ 450",
+      "pure-veg": "yes",
+      "ratings": "4.4",
+      "review-count": "19",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "35 minutes"
+    },
+    {
+      "_id": 47,
+      "address": "C scheme , Jaipur",
+      "city": "Jaipur",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/20196026/a1599102cbf8d051a5b3de5bc331c6db.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The king of fruits adds a delightful flavour to your scoop. The perfect taste of Rich and Pure Ratnagiri Alphonso Mango in every bite. Serving; 5 Serves, Serving Size",
+          "image": "Alphonso Mango Ice Cream 500ml",
+          "must": "no",
+          "name": "Alphonso Mango Ice Cream 500ml",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A scoop of Ice Cream Loaded with Cashews, Almonds, Pistas and Kishmishs. Needs no further description. Serving; 5 Serves, Serving Size",
+          "image": "https://b.zmtcdn.com/data/dish_photos/25c/4a537235e38c2ed8f1f47951b4b2e25c.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Dryfruit Overload Ice Cream 500ml",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "Now India's favourite Gulab Jamun in ice cream. Lose yourself in its rich aroma & indulgent texture. Serving; 5 Serves, Serving Size",
+          "image": "https://b.zmtcdn.com/data/dish_photos/4f8/a150844ff939be2111136e25771f44f8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Gulab Jamun Ice Cream 500ml",
+          "price": "₹ 225",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Matka Dryfruit Malai Kulfi [Pack of 2]",
+          "image": "https://b.zmtcdn.com/data/dish_photos/334/866d92a45daf230706d1249b5b5c2334.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Gol Gappe",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "The all-time favorite Desi Ice Cream - Malai Stick Kulfi, is here to be ordered right away",
+          "image": "https://b.zmtcdn.com/data/dish_photos/5a7/9d24371b5fa7a6144afb3aa353c045a7.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Stick Malai Kulfi",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "NIC Ice Creams",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "yes",
+      "ratings": "4.2",
+      "review-count": "43",
+      "speciality": "North Indian , Sandwich , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 48,
+      "address": "Sion , Jaipur",
+      "city": "Jaipur",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/1/47211/a0c3bcc09b1448a7138beda386f8db21.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hot & spicy chicken pizza with a new spicy peri peri sauce and topped with chicken keema & red paprika.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b37/abb475762834411a25fdd6396e73cb37.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Blazing Chicken",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+          "image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Garlic Bread Sticks",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Delightful combination of onion, capsicum, tomato & grilled mushroom. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Farm House Pizza",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Chicken sausage, pepper barbecue chicken & peri-peri chicken in a fresh pan crust",
+          "image": "https://b.zmtcdn.com/data/dish_photos/05b/9ad3bf1b3b9680d315d2841c2b71405b.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Non-Veg Loaded Pizza",
+          "price": "₹ 130",
+          "rating": "4.1",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9d2/0fa448c8d1113386c031b9e57095e9d2.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Choco-Lava Cake",
+          "price": "₹ 200",
+          "ratings": "3.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "Domino's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "3.5",
+      "review-count": "21",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    },
+    {
+      "_id": 49,
+      "address": "Sector 8 , Jaipur",
+      "city": "Jaipur",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/eac5d48527700f6ea1bcfbb2094456d0.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Spice it Up with Bbq Chicken,Chicken Sausages,Onion,Red Paprika,Smoked Chicken,Chicken Salami & Peri Peri Dip. [Fat-9.1 per 100 g, Protein-14.7 per 100 g, Carbohydrate-25.2 per 100 g, Sugar-5 per 100 g, Calories-241.5 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cd2/6ca51330825ac01b0a2ec8dc5f002cd2.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Peri-Peri Chicken Pizza",
+          "price": "₹ 299",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Quintessentially veg with capsicum, sweet corn and flavoured chunks of paneer. [Fat-12.1 per 100 g, Protein-10.1 per 100 g, Carbohydrate-34 per 100 g, Sugar-0 per 100 g, Calories-285.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c93/f857859c7bba4ce21af5b6faf4d75c93.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Spring Fling Pizza",
+          "price": "₹ 175",
+          "ratings": "3.7",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "60"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese. [Fat-10.5 per 100 g, Protein-3.9 per 100 g, Carbohydrate-9.2 per 100 g, Sugar-4.2 per 100 g, Calories-146.9 k.cal] Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0b8/e30a4ccd34862cfa21a985a8d17740b8.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Americano Pasta Veg",
+          "price": "₹ 179",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "9"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Loaded with Premium Red Velvet Lava",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b71/85b57569c3bab3cfd5f2e21b1f4f8b71.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Red Velvet Lava Cake",
+          "price": "₹ 110",
+          "rating": "3.5",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "50"
+        },
+        {
+          "best": "yes",
+          "chef": "yes",
+          "desc": "A classic pizza with onions,BBQ Chicken & Cheese. [Fat-7 per 100 g, Protein-10 per 100 g, Carbohydrate-43.5 per 100 g, Sugar-6.2 per 100 g, Calories-277.2 k.cal]Nutritional information per 100g",
+          "image": "https://b.zmtcdn.com/data/dish_photos/022/fb6295761f3af27c69c28806d70a5022.jpg?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Super BBQ",
+          "price": "₹ 165",
+          "ratings": "4.7",
+          "spicy": "yes",
+          "veg": "no",
+          "votes": "38"
+        }
+      ],
+      "name": "La Pino'z Pizza",
+      "open": "10 am - 12 pm",
+      "price": "₹ 350",
+      "pure-veg": "no",
+      "ratings": "4.4",
+      "review-count": "109",
+      "speciality": "Pizza , Pasta , Mexican",
+      "time": "31 minutes"
+    },
+    {
+      "_id": 50,
+      "address": "Main Junction , Jaipur",
+      "city": "Jaipur",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/15054/cc8e25516490d6f305373c4d4f947b69.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "menu": [
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "Hi, it’s cheese on this side! The all-time favourite fries with a generous dollop of cheesy yet smoky chipotle sauce.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/505/5d704f293f6a37937bc5b36e0e2f0505.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Cheezy Fries",
+          "price": "₹ 400",
+          "ratings": "4.0",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "14"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "New Chicken McWings® in a lip-smacking Chilli and Lemon flavour.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62d/b85c0086f7d9f52e7921b9825fa0162d.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Chicken Mc Wings",
+          "price": "₹ 160",
+          "ratings": "3.5",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "5"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A tikki delight: Potato and peas patty topped with veg sauce, ketchup, tomatoes and onions with toasted buns",
+          "image": "https://b.zmtcdn.com/data/dish_photos/baa/972cebbf048a12b23044fcef94d21baa.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Aloo Tikki Burger",
+          "price": "₹ 225",
+          "ratings": "3.9",
+          "spicy": "yes",
+          "veg": "yes",
+          "votes": "91"
+        },
+        {
+          "best": "no",
+          "chef": "no",
+          "desc": "Bite-sized pieces of breaded boneless chicken, fried and served hot with smoke-flavoured Barbeque Sauce or Mustard Sauce",
+          "image": "https://b.zmtcdn.com/data/dish_photos/050/f828d299c85374c6374c676c37b21050.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "yes",
+          "name": "Chicken Nugets",
+          "price": "₹ 130",
+          "rating": "4.0",
+          "spicy": "no",
+          "veg": "no",
+          "votes": "21"
+        },
+        {
+          "best": "yes",
+          "chef": "no",
+          "desc": "A rich smooth creamy cold coffee made with coffee powder and milk.",
+          "image": "https://b.zmtcdn.com/data/dish_photos/551/06d765f62c2d422b0642c7aeb5d26551.png?fit=around|130:130&crop=130:130;*,*",
+          "must": "no",
+          "name": "Old Coffee",
+          "price": "₹ 200",
+          "ratings": "4.1",
+          "spicy": "no",
+          "veg": "yes",
+          "votes": "35"
+        }
+      ],
+      "name": "McDonald's",
+      "open": "8 am - 10 pm",
+      "price": "₹ 250",
+      "pure-veg": "no",
+      "ratings": "4.8",
+      "review-count": "54",
+      "speciality": "North Indian , Pizza , Beverages",
+      "time": "25 minutes"
+    }
+  ],
+  "signup": {
+    "0": {
+      "email": "dummy@gmail.com",
+      "id": 1,
+      "name": "Dummy"
+    },
+    "1": {
+      "email": "sakshamverma798@gmail.com",
+      "id": 2,
+      "name": "Saksham Verma"
+    },
+    "-NY8ys9acHVPheQUKO8D": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYD4NPYwyVvGHxNU78d": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "Everything is Good."
+    },
+    "-NYD9R9zzmBeNj8i1xXW": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "Everything is Good."
+    },
+    "-NYD9RKs-6YMxzJz6RV3": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "Everything is Good."
+    },
+    "-NYD9RnddS2Yp5oIukIG": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "Everything is Good."
+    },
+    "-NYD9V-EExVXB6pBtjKZ": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "Everything is Good."
+    },
+    "-NYDxQaldrcdPxxCRbLL": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYE0ASMa7DVNZKmATto": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma",
+      "password": ""
+    },
+    "-NYE28CHOFFbYeDSuciv": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEOdO1bI1hkeHCTemQ": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEPNURCrj8imVC54BB": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEQpY15ahOGf8DVc5R": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYETMrjvgduPYp7YWUt": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEULABQb0U3l_VSYm5": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEYBtAA4l5uU3EPImM": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEYH8kAdBSCZZXauKy": {
+      "email": "vermauttam104@gmail.com",
+      "name": ""
+    },
+    "-NYEYLASJkYe4I7fsbKX": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEYNtdcgxbClOzTRXh": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEYVKesupEJJAtQDnt": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEYmL3I8PPvCJNIy0w": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEpTYUOwZaMYa8o-NR": {
+      "email": "kingclownofcrime@gmail.com",
+      "name": "SaltyButtersScotch"
+    },
+    "-NYEq8nO6sBmkY9gHwEK": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYGo7coSYLN7RnnCcAn": {
+      "email": "reemaverma001@gmail.com",
+      "name": "Reema "
+    },
+    "-NYIHUuEOHWDPjEE-a_-": {
+      "email": "vermauttam104@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYJ4_sAWWJlG9W6gaR5": {
+      "email": "admin@gmail.com",
+      "name": "admin"
+    }
+  },
+  "user-orders": {
+    "0": {
+      "from": "",
+      "id": 1,
+      "img": "",
+      "name": "",
+      "price": "",
+      "qty": ""
+    },
+    "-NYCrouPhCHAyNFyhFEc": {
+      "cardNumber": "123456789123",
+      "cvv": "123",
+      "email": "sakshamverma798@gmail.com",
+      "expiryDate": "01/01/2011",
+      "name": "Uttam Verma"
+    },
+    "-NYF1TylenXabJkYos5M": {
+      "cardNumber": "123467111111",
+      "cvv": "322",
+      "email": "kingclownofcrime@gmail.com",
+      "expiryDate": "01/01/2035",
+      "name": "Uttam Verma "
+    },
+    "-NYF5qAfYcQmmsQpHQGV": {
+      "cardNumber": "123456789123",
+      "cvv": "123",
+      "email": "sakshamverma798@gmail.com",
+      "expiryDate": "01/01/2023",
+      "name": "Uttam Verma"
+    },
+    "-NYF6d4qebUe1Kmenvol": {
+      "cardNumber": "123456789123",
+      "cvv": "123",
+      "email": "sakshamverma798@gmail.com",
+      "expiryDate": "01/01/2023",
+      "name": "Uttam Verma"
+    }
+  },
+  "users": {
+    "0": {
+      "email": "dummy@gmail.com",
+      "id": 1,
+      "name": "Dummy"
+    },
+    "-NY8yxsttu8eDPHvSI3f": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCQp7JkQPH1HTgvdCn": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCTL4BwreJNs6k5b0o": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCTrxbLo3jCVfSAnVg": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCU1FbNejlzCXXltvs": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYClsCmqYkHstzLbVGR": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCucLDuzgpGxGJVYkQ": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYCuy4sZX5OlHlrke4H": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYDg2LyW4uH59gSE7Q-": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYDiJwe_0A7KWbxSjk6": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYDjCgfPw3hDKlyX8jx": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYDkbcsVFa4kTozU4ri": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYE2tEAUJuV5jd7oJx6": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYE6xLoilVYHpavtJni": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEAMA-5YS5QZ209w2P": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYECJrDVb9TBPoN3MNs": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYECitwYJzkzXjMweH-": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEKoASpK7wQLj1TZNQ": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYELQTRlnhKQeWmYf-q": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYELzmWhadEjfLjrBVv": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEMCPYgaevyPMR3HRT": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEqGPoM9cOC6uDPJ3v": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYEqd2-v_9VoBAPtHlE": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYEqs_HP6vNjS4-R38S": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYErKuIRs3Wj6PHG0Bk": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYErXqERf2ZMqUpwY9v": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEs-Jn4DJStQtUv3QH": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEum0put_2wm0AAX0D": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYExNYVqiarKlGTJIYD": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYExYul215FTZxp4_ep": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYEyRili2HFWjxpNYWY": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYEyXfNOWcpy2Ylzeci": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF-4X-DJNCLERAlHYu": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF-DU4W2EYE6NcHI0D": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF-akdjIFzbjNojnBo": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF0NuPhlgP6GFbtmZE": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF1D7JQheXLpZYuIcx": {
+      "email": "anitaverma2636@gmail.com",
+      "name": "Uttam "
+    },
+    "-NYF37xRoHeH0xcxV5Pz": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF6Rw29TrtyWgUNa6z": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYF78MvsD0ODkNFt8kp": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYFCyu0i4f3ox-lVph4": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYGoFOpPBEjChbBX-_2": {
+      "email": "reemaverma001@gmail.com",
+      "name": "Reema "
+    },
+    "-NYHsvvprFPDhGTE2bxi": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYHszo7OCvlf9opX0oB": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYHtanAvCUdUWLZmf-n": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYHxJ27JOIhktoTCYY-": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYHxp8v_5BE3a_6R6xt": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYI0y6YnLimywbQtIWx": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYI1FpAMj7_H3SO-WHV": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYI4LYbni9ElXmkl_GY": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYI4Q7WSlGiFMOEegqs": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIWaxj9TLg8VOdaAWz": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIZCKCZWORg4ltZICi": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIZIJgCbkddEOuIE6-": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYI_yM0LHhwbMFvNXQl": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIci6tBJMSyP--VnKU": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIiH-tlTnm9OVuBcr1": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Uttam Verma"
+    },
+    "-NYIjG3qdKRRGndWV9tZ": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Saksham Verma"
+    },
+    "-NYInH30rG8zwdwUddFr": {
+      "email": "sakshamverma798@gmail.com",
+      "name": "Saksham Verma"
+    }
+  }
+}

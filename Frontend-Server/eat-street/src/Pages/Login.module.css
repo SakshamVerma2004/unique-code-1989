@@ -21,7 +21,7 @@
 
 @keyframes transparentBackground {
   0% {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.189);
     color: rgb(93, 94, 94);
   }
   100% {
