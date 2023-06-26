@@ -18,7 +18,7 @@ const Admin = () => {
 
   const fetchRestaurantsData = () => {
     fetch(
-      "https://backend-server-8879b-default-rtdb.firebaseio.com/restaurants.json"
+      "https://backend-server-unique-code-default-rtdb.firebaseio.com/restaurants.json"
     )
       .then((res) => res.json())
       .then((dataRes) => {
@@ -32,7 +32,7 @@ const Admin = () => {
 
   const fetchSignupData = () => {
     fetch(
-      "https://backend-server-8879b-default-rtdb.firebaseio.com/signup.json"
+      "https://backend-server-unique-code-default-rtdb.firebaseio.com/signup.json"
     )
       .then((res) => res.json())
       .then((data) => {
@@ -44,7 +44,7 @@ const Admin = () => {
   };
 
   const fetchLoginData = () => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/users.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/users.json")
       .then((res) => res.json())
       .then((data) => {
         setLogin(Object.values(data).length);
@@ -55,7 +55,7 @@ const Admin = () => {
   };
 
   const fetchCart = () => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json")
       .then((res) => res.json())
       .then((data) => {
         setCart(Object.values(data));

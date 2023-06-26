@@ -6,7 +6,7 @@ let Cities = () => {
   let [newCities, setNewCities] = useState([]);
   let [effectCount, setEffectCount] = useState(0);
   let fetchdata = () => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/restaurants.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/restaurants.json")
       .then((res) => {
         return res.json();
       })

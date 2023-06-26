@@ -37,7 +37,7 @@ let Menu = ({
     setAlert(true);
     setItem(name);
 
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json", {
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
