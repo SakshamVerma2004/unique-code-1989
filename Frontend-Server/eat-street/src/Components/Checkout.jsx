@@ -61,7 +61,7 @@ const Checkout = () => {
         setTimeout(() => {
           window.location.href="/";
         }, 1000);
-        fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/user-orders.json",{
+        fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/user-orders.json",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

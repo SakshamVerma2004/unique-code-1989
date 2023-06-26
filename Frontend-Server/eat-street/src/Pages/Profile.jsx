@@ -7,7 +7,7 @@ let Profile = () => {
   let [enteredEmail, setEnteredEmail] = useState("");
   let {loginName,setLoginName,loginEmail,setLoginEmail} = useContext(AuthContext);
   useEffect(() => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/users.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/users.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

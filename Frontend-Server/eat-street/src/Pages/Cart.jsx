@@ -12,7 +12,7 @@ let Cart = () => {
   let { loginName, loginEmail, setTotal } = useContext(AuthContext);
 
   let fetchData = () => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/extra.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json")
       .then((res) => res.json())
       .then((data) => {
         if (data && typeof data === "object") {
@@ -55,7 +55,7 @@ let Cart = () => {
 
   let deleteItem = (itemId) => {
     fetch(
-      `https://backend-server-8879b-default-rtdb.firebaseio.com/extra/${itemId}.json`,
+      `https://backend-server-unique-code-default-rtdb.firebaseio.com/extra/${itemId}.json`,
       {
         method: "DELETE",
       }

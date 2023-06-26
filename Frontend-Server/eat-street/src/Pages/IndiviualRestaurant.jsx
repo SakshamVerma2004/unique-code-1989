@@ -122,7 +122,7 @@ let IndiviualRestaurant = () => {
 
   useEffect(() => {
     fetch(
-      `https://backend-server-8879b-default-rtdb.firebaseio.com/restaurants.json`
+      `https://backend-server-unique-code-default-rtdb.firebaseio.com/restaurants.json`
     )
       .then((res) => res.json())
       .then((data) => {

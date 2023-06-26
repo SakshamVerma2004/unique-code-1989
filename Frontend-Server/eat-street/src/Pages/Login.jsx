@@ -40,7 +40,7 @@ let Login = () => {
   let [usersData, setUsersData] = useState({});
 
   useEffect(() => {
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/signup.json")
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/signup.json")
       .then((res) => res.json())
       .then((data) => setUsersData(Object.values(data)))
       .catch((error) => {
@@ -92,7 +92,7 @@ let Login = () => {
       });
       setLoginShow(false);
       setLinksShow(true);
-      fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/users.json", {
+      fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/users.json", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

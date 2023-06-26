@@ -108,7 +108,7 @@ let IndiviualCity = () => {
   }, [count]);
 
   useEffect(() => {
-    fetch(`https://backend-server-8879b-default-rtdb.firebaseio.com/restaurants.json`)
+    fetch(`https://backend-server-unique-code-default-rtdb.firebaseio.com/restaurants.json`)
       .then((res) => res.json())
       .then((data) => {
         let filteredData = Object.values(data).filter((item) => item.city === location);

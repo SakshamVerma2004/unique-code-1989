@@ -34,7 +34,7 @@ let SignUp = () => {
       name,
       email,
     };
-    fetch("https://backend-server-8879b-default-rtdb.firebaseio.com/signup.json",{
+    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/signup.json",{
       method:"POST",
       headers:{
         "Content-Type":"application/json",
