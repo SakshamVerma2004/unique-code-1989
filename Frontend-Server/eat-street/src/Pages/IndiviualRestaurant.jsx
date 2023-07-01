@@ -1,4 +1,4 @@
- import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import styles from "./IndiviualRestaurant.module.css";
 import Navbar from "../Navbar/Navbar";
 import { useContext, useEffect, useState } from "react";
@@ -11,7 +11,21 @@ let IndiviualRestaurant = () => {
   let [data, setData] = useState({});
   let [redirect, setRedirect] = useState(false);
   let [count, setCount] = useState(10);
-  let { isLogin,time,setTime,loginName,loginEmail } = useContext(AuthContext);
+  let {
+    isLogin,
+    time,
+    setTime,
+    loginName,
+    loginEmail,
+    btndis,
+    setBtnDis,
+    removed,
+    setRemoved,
+    addedItem,
+    setAddedItem,
+    showCartItems,
+    setShowCartItems,
+  } = useContext(AuthContext);
   let { restaurantName, location } = useParams();
   let [searchInput, setSearchInput] = useState("");
   let [menu, setMenu] = useState([]);
@@ -25,11 +39,11 @@ let IndiviualRestaurant = () => {
     setSearchInput(e.target.value);
   };
 
-  let cartLink=<Link to="/cart">Cart</Link>
+  let cartLink = <Link to="/cart">Cart</Link>;
 
   let content = (
     <div>
-      <Navbar city={location} handleSearch={handleSearch} cart={cartLink}/>
+      <Navbar city={location} handleSearch={handleSearch} cart={cartLink} />
       <hr className={styles.hr1} />
       <div className={styles.imageDiv}>
         <img className={styles.image} src={data.image} alt="main-image" />
@@ -62,7 +76,7 @@ let IndiviualRestaurant = () => {
       <div className={styles.addressDiv}>
         <h3 className={styles.address}>{data.address}</h3>
         <h3 className={styles.deliver}>
-          Average Time Taken to Deliver{" "}
+          Average Time Taken to Deliver -{">"}{" "}
           <span className={styles.averageTime}>{data.time}</span>
         </h3>
       </div>
@@ -89,6 +103,13 @@ let IndiviualRestaurant = () => {
       </div>
       <div className={styles.main}>
         <h1 className={styles.heading}>Restaurant Menu</h1>
+        <div className={styles.note}>
+          <p className={styles.notePara}>
+            Note : This website enforces a one-item-only policy, ensuring that
+            users can add and purchase a single item at a time from the cart.
+            Hence you can add only one item in the cart. Remove the previous item to add another one.
+          </p>
+        </div>
         {menu
           .filter((item) =>
             item.name.toLowerCase().includes(searchInput.toLowerCase())
@@ -103,6 +124,7 @@ let IndiviualRestaurant = () => {
   );
 
   useEffect(() => {
+    setRemoved(false);
     if (!isLogin) {
       let timer = setTimeout(() => {
         if (count > 0) {

@@ -7,70 +7,100 @@ import Footer from "../Footer/Footer";
 import Card from "../Components/Card";
 import { Link } from "react-router-dom";
 
-let IndiviualCity = () => {
-  let [count, setCount] = useState(10);
-  let { isLogin } = useContext(AuthContext);
-  let { location } = useParams();
-  let [data, setData] = useState([]);
-  let [searchInput, setSearchInput] = useState("");
-  let [redirect, setRedirect] = useState(false);
-  let [pureVegClicked, setPureVegClicked] = useState(false);
-  let [sortLowToHigh, setSortLowToHigh] = useState(false);
-  let [sortHighToLow, setSortHighToLow] = useState(false);
-  let [filteredData, setFilteredData] = useState([]);
-  let [filteredDataLength, setFilteredDataLength] = useState(0);
+const IndividualCity = () => {
+  const [count, setCount] = useState(10);
+  const { isLogin } = useContext(AuthContext);
+  const { location } = useParams();
+  const [data, setData] = useState([]);
+  const [searchInput, setSearchInput] = useState("");
+  const [redirect, setRedirect] = useState(false);
+  const [pureVegClicked, setPureVegClicked] = useState(false);
+  const [sortLowToHigh, setSortLowToHigh] = useState(false);
+  const [sortHighToLow, setSortHighToLow] = useState(false);
+  const [filteredData, setFilteredData] = useState([]);
+  const [filteredDataLength, setFilteredDataLength] = useState(0);
+  const [filterActive, setFilterActive] = useState(false);
 
-  let handleSearch = (value) => {
+  const handleSearch = (value) => {
     setSearchInput(value);
   };
 
-  let handleRatingFilter = () => {
-    let filteredData = data.filter((item) => {
-      let rating = parseFloat(item.rating);
-      return rating >= 4.0 && (!pureVegClicked || item["pure-veg"] === "yes");
-    });
-    setFilteredData(filteredData);
-    setFilteredDataLength(filteredData.length);
+  const handleRatingFilter = () => {
+    if (filterActive) {
+      setFilteredData(data);
+      setFilteredDataLength(data.length);
+      setFilterActive(false);
+    } else {
+      const filteredData = data.filter(
+        (item) =>
+          parseFloat(item.ratings) >= 4.0 && (!pureVegClicked || item["pure-veg"] === "yes")
+      );
+      setFilteredData(filteredData);
+      setFilteredDataLength(filteredData.length);
+      setFilterActive(true);
+    }
   };
 
-  let handlePureVegFilter = () => {
+  const handlePureVegFilter = () => {
     setPureVegClicked(!pureVegClicked);
   };
 
-  let handleSortLowToHigh = () => {
-    let sortedData = [...data].sort((a, b) => getPrice(a) - getPrice(b));
-    setFilteredData(sortedData);
-    setFilteredDataLength(sortedData.length);
-    setSortLowToHigh(true);
-    setSortHighToLow(false);
+  const handleSortLowToHigh = () => {
+    if (sortLowToHigh) {
+      setFilteredData(data);
+      setSortLowToHigh(false);
+    } else {
+      const sortedData = [...data].sort((a, b) => getPrice(a) - getPrice(b));
+      setFilteredData(sortedData);
+      setFilteredDataLength(sortedData.length);
+      setSortLowToHigh(true);
+      setSortHighToLow(false);
+    }
   };
 
-  let handleSortHighToLow = () => {
-    let sortedData = [...data].sort((a, b) => getPrice(b) - getPrice(a));
-    setFilteredData(sortedData);
-    setFilteredDataLength(sortedData.length);
-    setSortLowToHigh(false);
-    setSortHighToLow(true);
+  const handleSortHighToLow = () => {
+    if (sortHighToLow) {
+      setFilteredData(data);
+      setSortHighToLow(false);
+    } else {
+      const sortedData = [...data].sort((a, b) => getPrice(b) - getPrice(a));
+      setFilteredData(sortedData);
+      setFilteredDataLength(sortedData.length);
+      setSortLowToHigh(false);
+      setSortHighToLow(true);
+    }
   };
 
-  let getPrice = (item) => {
-    let price = item.price.trim().split("₹")[1].trim();
+  const getPrice = (item) => {
+    const price = item.price.trim().split("₹")[1].trim();
     return parseInt(price);
   };
 
-  let content = (
+  const content = (
     <div>
       <Navbar city={location} handleSearch={handleSearch} />
       <div className={styles.options}>
-        <button onClick={handleRatingFilter}>Rating: 4.0+</button>
+        <button onClick={handleRatingFilter}>
+          {filterActive ? "Rating: 4.0+" : "Rating: 4.0+"}
+        </button>
         <button
           className={`${styles.veg} ${pureVegClicked ? styles.active : ""}`}
           onClick={handlePureVegFilter}
         >
           Pure Veg
         </button>
-        <button onClick={handleSortLowToHigh}>Sort Low to High</button>
-        <button onClick={handleSortHighToLow}>Sort High to Low</button>
+        <button
+          className={`${styles.sort} ${sortLowToHigh ? styles.active : ""}`}
+          onClick={handleSortLowToHigh}
+        >
+          Sort Low to High
+        </button>
+        <button
+          className={`${styles.sort} ${sortHighToLow ? styles.active : ""}`}
+          onClick={handleSortHighToLow}
+        >
+          Sort High to Low
+        </button>
       </div>
       <div className={styles.heading}>
         <h1 className={styles.weight}>
@@ -91,7 +121,7 @@ let IndiviualCity = () => {
 
   useEffect(() => {
     if (!isLogin) {
-      let timer = setTimeout(() => {
+      const timer = setTimeout(() => {
         if (count > 0) {
           setCount((prevCount) => prevCount - 1);
         }
@@ -111,7 +141,7 @@ let IndiviualCity = () => {
     fetch(`https://backend-server-unique-code-default-rtdb.firebaseio.com/restaurants.json`)
       .then((res) => res.json())
       .then((data) => {
-        let filteredData = Object.values(data).filter((item) => item.city === location);
+        const filteredData = Object.values(data).filter((item) => item.city === location);
         setData(filteredData);
         setFilteredData(filteredData);
         setFilteredDataLength(filteredData.length);
@@ -146,7 +176,8 @@ let IndiviualCity = () => {
           <h1 className={styles.alert}>Login required</h1>
           <h2 className={styles.para}>You need to login first for accessing this page.</h2>
           <p>
-            You are being redirected to the home page in <span className={styles.counter}>{count}</span> seconds.
+            You are being redirected to the home page in{" "}
+            <span className={styles.counter}>{count}</span> seconds.
           </p>
           <p>
             You can also go to the home page by clicking on this link:{" "}
@@ -160,4 +191,4 @@ let IndiviualCity = () => {
   );
 };
 
-export default IndiviualCity;
+export default IndividualCity;

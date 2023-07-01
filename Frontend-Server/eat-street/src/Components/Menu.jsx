@@ -20,8 +20,25 @@ let Menu = ({
   let [alert, setAlert] = useState(false);
   let [cart, setCart] = useState(false);
   let [dis, setDis] = useState(false);
-  let { item, setItem, loginName, setLoginName, time, loginEmail, qty, setQty } = useContext(AuthContext);
-  
+  let {
+    item,
+    setItem,
+    loginName,
+    setLoginName,
+    time,
+    loginEmail,
+    qty,
+    setQty,
+    btndis,
+    setBtnDis,
+    removed,
+    setRemoved,
+    addedItem,
+    setAddedItem,
+    showCartItems,
+    setShowCartItems,
+  } = useContext(AuthContext);
+
   useEffect(() => {
     const handleResize = () => {
       setDis(window.innerWidth < 413);
@@ -34,25 +51,30 @@ let Menu = ({
   }, []);
 
   let alertHandler = () => {
+    setShowCartItems(true);
+    setAddedItem(true);
     setAlert(true);
     setItem(name);
 
-    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        image,
-        name,
-        price,
-        desc,
-        time,
-        loginName,
-        loginEmail,
-        qty
-      }),
-    })
+    fetch(
+      "https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          image,
+          name,
+          price,
+          desc,
+          time,
+          loginName,
+          loginEmail,
+          qty,
+        }),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -60,7 +82,6 @@ let Menu = ({
       .catch((error) => {
         console.log(error);
       });
-
     setCart(true);
   };
 
@@ -69,7 +90,7 @@ let Menu = ({
   }
 
   const nameStyle = {
-    fontSize: dis ? "10px" : ""
+    fontSize: dis ? "10px" : "",
   };
 
   return (
@@ -94,10 +115,26 @@ let Menu = ({
             />
           )}
           <div className={styles.options}>
-            {best === "yes" ? <button className={styles.best}>Best Seller</button> : ""}
-            {chef === "yes" ? <button className={styles.chef}>Chef Special</button> : ""}
-            {must === "yes" ? <button className={styles.must}>Must Try</button> : ""}
-            {spicy === "yes" ? <button className={styles.spicy}>Spicy</button> : ""}
+            {best === "yes" ? (
+              <button className={styles.best}>Best Seller</button>
+            ) : (
+              ""
+            )}
+            {chef === "yes" ? (
+              <button className={styles.chef}>Chef Special</button>
+            ) : (
+              ""
+            )}
+            {must === "yes" ? (
+              <button className={styles.must}>Must Try</button>
+            ) : (
+              ""
+            )}
+            {spicy === "yes" ? (
+              <button className={styles.spicy}>Spicy</button>
+            ) : (
+              ""
+            )}
           </div>
         </h2>
         <p className={styles.ratings}>
@@ -108,7 +145,11 @@ let Menu = ({
         <p className={styles.desc}>{desc}</p>
       </div>
       <div className={styles.addButton}>
-        <button className={styles.add} onClick={alertHandler} disabled={dis}>
+        <button
+          className={styles.add}
+          onClick={alertHandler}
+          disabled={addedItem}
+        >
           Add +
         </button>
       </div>

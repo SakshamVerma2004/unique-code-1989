@@ -4,15 +4,20 @@ import styles from "./Cart.module.css";
 import { AuthContext } from "../Context/AuthContextProvider";
 import Button from "../Components/Button";
 import { Link } from "react-router-dom";
+import MenuItems from "../Components/MenuItems";
+import Footer from "../Footer/Footer";
 
 let Cart = () => {
   let [data, setData] = useState([]);
   let [qty, setQty] = useState({});
   let [filteredData, setFilteredData] = useState([]);
-  let { loginName, loginEmail, setTotal } = useContext(AuthContext);
+  let { loginName, loginEmail, setTotal, btndis, setBtnDis, filterlength, setFilterlength, removed, setRemoved,showCartItems,setShowCartItems } =
+    useContext(AuthContext);
 
   let fetchData = () => {
-    fetch("https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json")
+    fetch(
+      "https://backend-server-unique-code-default-rtdb.firebaseio.com/extra.json"
+    )
       .then((res) => res.json())
       .then((data) => {
         if (data && typeof data === "object") {
@@ -22,7 +27,7 @@ let Cart = () => {
               item.loginName === loginName && item.loginEmail === loginEmail
           );
           setData(filteredData);
-          setFilteredData(filteredData);
+          setFilteredData(filteredData.slice(-1));
           let initialQty = filteredData.reduce(
             (acc, item) => ({
               ...acc,
@@ -31,6 +36,8 @@ let Cart = () => {
             {}
           );
           setQty(initialQty);
+          setFilterlength(filteredData.length === 1);
+          setBtnDis(filterlength);
         } else {
           setData([]);
           setFilteredData([]);
@@ -60,18 +67,21 @@ let Cart = () => {
         method: "DELETE",
       }
     )
-      .then((res) => res.json())
-      .then((result) => {
-        console.log("Item deleted successfully");
-        setData((prevData) => prevData.filter((item) => item.id !== itemId));
-        setFilteredData((prevFilteredData) =>
-          prevFilteredData.filter((item) => item.id !== itemId)
-        );
-        setQty((prevQty) => {
-          let updatedQty = { ...prevQty };
-          delete updatedQty[itemId];
-          return updatedQty;
-        });
+      .then((res) => {
+        if (res.ok) {
+          setData((prevData) => prevData.filter((item) => item.id !== itemId));
+          setFilteredData((prevFilteredData) =>
+            prevFilteredData.filter((item) => item.id !== itemId)
+          );
+          setQty((prevQty) => {
+            let updatedQty = { ...prevQty };
+            delete updatedQty[itemId];
+            return updatedQty;
+          });
+          console.log("Item deleted successfully");
+        } else {
+          throw new Error("Failed to delete item");
+        }
       })
       .catch((error) => {
         console.log("Error deleting item:", error);
@@ -94,18 +104,19 @@ let Cart = () => {
         };
       });
 
-      setData(updatedData);
-      setFilteredData(updatedData);
+      setFilteredData(updatedData.slice(-1));
     }
-  }, [qty]);
+  }, [data, qty]);
 
   let getTotalPrice = () => {
+    if (!showCartItems) {
+      setTotal("0.00");
+      return "0.00";
+    }
+
     let totalPrice = 0;
-    if (Array.isArray(data) && data.length > 0) {
-      totalPrice = data.reduce(
-        (acc, item) => acc + (qty[item.id] || 1) * item.totalPrice,
-        0
-      );
+    if (Array.isArray(filteredData) && filteredData.length > 0) {
+      totalPrice = filteredData.reduce((acc, item) => acc + item.totalPrice, 0);
     }
     setTotal(totalPrice.toFixed(2));
     return totalPrice.toFixed(2);
@@ -113,22 +124,26 @@ let Cart = () => {
 
   let handleSearch = (searchInput) => {
     if (searchInput.trim() === "") {
-      setFilteredData(data);
+      setFilteredData(data.slice(-1));
     } else {
       let filteredItems = data.filter((item) =>
         item.name.toLowerCase().includes(searchInput.toLowerCase())
       );
-      setFilteredData(filteredItems);
+      setFilteredData(filteredItems.slice(-1));
     }
   };
-
-  let Items = "Items";
 
   return (
     <div>
       <Navbar
         handleSearch={handleSearch}
-        cart={<p className={styles.items}>{filteredData.length} Items</p>}
+        cart={
+          !showCartItems ? (
+            <p className={styles.items}>0 Item(s)</p>
+          ) : (
+            <p className={styles.items}>{filteredData.length} Item(s)</p>
+          )
+        }
       />
       <div className={styles.main}>
         <div className={styles.totalDiv}>
@@ -136,55 +151,39 @@ let Cart = () => {
           <h2 className={styles.total}>Total Amount: ₹ {getTotalPrice()}</h2>
         </div>
         <div className={styles.cartItems}>
-          {Array.isArray(filteredData) ? (
+          {!showCartItems ? (
+            <p className={styles.check}></p>
+          ) : Array.isArray(filteredData) && filteredData.length > 0 ? (
             filteredData.map((item) => (
-              <div key={item.id} className={styles.card}>
-                <div className={styles.mainDiv}>
-                  <img
-                    src={item.image}
-                    className={styles.image}
-                    alt={item.name}
-                  />
-                  <div className={styles.values}>
-                    <p className={styles.name}>{item.name}</p>
-                    <p className={styles.price}>Price: {item.price}</p>
-                    <h3 className={styles.desc}>{item.desc}</h3>
-                  </div>
-                </div>
-                <div className={styles.options}>
-                  <Button
-                    onClick={() => updateQuantity(item.id, qty[item.id] - 1)}
-                    text="-"
-                    disabled={qty[item.id]===1}
-                  />
-                  <p className={styles.qty}>Quantity: {qty[item.id] || 1}</p>
-                  <Button
-                    onClick={() => updateQuantity(item.id, qty[item.id] + 1)}
-                    text="+"
-                  />
-                </div>
-                <button
-                  className={styles.remove}
-                  onClick={() => deleteItem(item.id)}
-                >
-                  Remove
-                </button>
-              </div>
+              <MenuItems
+                item={item}
+                key={item.id}
+                updateQuantity={updateQuantity}
+                deleteItem={deleteItem}
+                qty={qty[item.id]}
+              />
             ))
           ) : (
-            <p>No items available</p>
+            <p></p>
           )}
         </div>
       </div>
-      <div className={styles.btn}>
-        {filteredData.length > 0 ? (
-          <Link to="/checkout" className={styles.check}>
-            Proceed To Checkout
-          </Link>
+      {showCartItems?
+      (
+        <div className={styles.btn}>
+        {filteredData.length > 0 && !removed ? (
+          <div className="footerDiv">
+            <Link to="/checkout" className={styles.check}>
+              Proceed To Checkout
+            </Link>
+          </div>
         ) : (
-          <p>Your cart is empty</p>
+          <p className={styles.check}></p>
         )}
       </div>
+      )
+      :<p className={styles.cartEmpty}>Your Cart is Empty</p>}
+      <Footer/>
     </div>
   );
 };
