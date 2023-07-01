@@ -14,8 +14,8 @@
     width:30%;
     height: 30px;
     justify-content: space-around;
-    margin: auto;
     margin-top: 20px;
+    margin-left: 9.5%;
 }
 
 .options button{
@@ -48,12 +48,12 @@
 }
 
 .head{
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.5px;
 }
 
 .weight{
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .area{
