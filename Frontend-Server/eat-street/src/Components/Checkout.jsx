@@ -10,7 +10,7 @@ const Checkout = () => {
   const [cardNumber, setCardNumber] = useState("");
   const [expiryDate, setExpiryDate] = useState("");
   const [cvv, setCvv] = useState("");
-  let [address, setAddress] = useState("");
+  const [address, setAddress] = useState("");
   const [isDisplayed, setIsDisplayed] = useState(false);
 
   const handleNameChange = (e) => {
@@ -23,21 +23,21 @@ const Checkout = () => {
 
   const handleCardNumberChange = (e) => {
     const value = e.target.value;
-    let formattedValue = value;
+    let formattedValue = value.replace(/\s/g, ""); // Remove all whitespace
 
-    if (value.length === 4 || value.length === 9) {
-      formattedValue += " ";
+    if (value.length > 0) {
+      formattedValue = formattedValue.match(/.{1,4}/g).join(" ");
     }
 
     setCardNumber(formattedValue);
   };
 
   const handleExpiryDateChange = (e) => {
-    let value = e.target.value;
-    let formattedValue = value;
+    const value = e.target.value;
+    let formattedValue = value.replace(/\//g, ""); // Remove all forward slashes
 
-    if (value.length === 2 || value.length === 5) {
-      formattedValue += "/";
+    if (value.length > 0) {
+      formattedValue = formattedValue.match(/.{1,2}/g).join("/");
     }
 
     setExpiryDate(formattedValue);
@@ -55,33 +55,37 @@ const Checkout = () => {
     e.preventDefault();
   };
 
-  let submit = () => {
+  const submit = () => {
     if (name.trim().length < 3) {
       swal("Incorrect Name", "Name length cannot be lesser than 3", "error");
       return;
     }
     if (!email.includes("@") || email.length < 6) {
-      swal("Incorrect email", "Please Fill correct email", "error");
+      swal("Incorrect email", "Please fill in a correct email", "error");
       return;
     }
-    if (!address.length < 10) {
-      swal("Incorrect address", "Please Fill correct address with minimum or length 10", "error");
+    if (address.trim().length < 10) {
+      swal(
+        "Incorrect Address",
+        "Please fill in a correct address with a minimum length of 10",
+        "error"
+      );
       return;
     }
-    if (cardNumber.trim().length < 12) {
-      swal("Incorrect Card Number", "Please Fill correct card Number", "error");
+    if (cardNumber.trim().length < 14) {
+      swal("Incorrect Card Number", "Please fill in a correct card number with length of 12", "error");
       return;
     }
-    if (expiryDate.trim().length < 8) {
+    if (expiryDate.trim().length < 5) {
       swal(
         "Incorrect Expiry Date",
-        "Please fill the expiry date according to the given format",
+        "Please fill in the expiry date according to the given format",
         "error"
       );
       return;
     }
     if (cvv.trim().length < 3) {
-      swal("Incorrect CVV Number", "Please Fill Correct cvv number", "error");
+      swal("Incorrect CVV Number", "Please fill in a correct CVV number with length of 3", "error");
       return;
     }
     if (
@@ -92,7 +96,7 @@ const Checkout = () => {
       expiryDate.trim().length !== 0 &&
       cvv.trim().length !== 0
     ) {
-      swal("Order Sent", "Your order has been submitted, Happy Meal..", "success");
+      swal("Order Sent", "Your order has been submitted. Enjoy your meal!", "success");
       setTimeout(() => {
         window.location.href = "/";
       }, 2000);
@@ -119,7 +123,7 @@ const Checkout = () => {
           console.log(error);
         });
     } else {
-      swal("Failed", "Please fill all the details", "error");
+      swal("Failed", "Please fill in all the details", "error");
     }
   };
 
@@ -163,7 +167,7 @@ const Checkout = () => {
               />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="cardNumber" className={styles.label}>
+              <label htmlFor="address" className={styles.label}>
                 Address
               </label>
               <input
@@ -172,7 +176,7 @@ const Checkout = () => {
                 className={styles.input}
                 value={address}
                 onChange={handleAddressChange}
-                placeholder="House No.123 , ABC Street , Near ABC , City"
+                placeholder="House No.123, ABC Street, Near ABC, City"
                 minLength={10}
               />
             </div>
@@ -186,7 +190,7 @@ const Checkout = () => {
                 className={styles.input}
                 value={cardNumber}
                 onChange={handleCardNumberChange}
-                placeholder="1234 5678 9123"
+                placeholder="1234 5678 9123 4567"
                 maxLength={19}
               />
             </div>
@@ -200,8 +204,8 @@ const Checkout = () => {
                 className={styles.input}
                 value={expiryDate}
                 onChange={handleExpiryDateChange}
-                placeholder="01/01/2022"
-                maxLength={10}
+                placeholder="MM/YY"
+                maxLength={5}
               />
             </div>
             <div className={styles.formGroup}>
