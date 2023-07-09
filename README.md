@@ -12,7 +12,7 @@ REACT ROUTER DOM
 2. For Backend :-
 Firebase
 # Main Moto behind Creating this website
-Implement Whatever learned during completing the course for React.
+Implement Whatever learned during completing the course of React.
 # Features in this Website :-
 1. Login / Signup Functionality
 2. Move between the pages
