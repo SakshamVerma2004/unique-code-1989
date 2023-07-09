@@ -13,7 +13,7 @@ REACT ROUTER DOM
 Firebase
 # Main Moto behind Creating this website
 Implement Whatever learned during completing the course of React.
-# Features in this Website :-
+# Features / Functionalities in this Website :-
 1. Login / Signup Functionality
 2. Move between the pages
 3. Posting all the date related users login/signup , products added to cart , the checkout details etc.
