@@ -28,22 +28,22 @@ Implement Whatever learned during completing the course of React.
 12. Automatic Logout for the users in 30 minutes . 
 # Pages in the Website (6) :-
 # 1. Homepage
-![Screenshot_20230709_064621](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/f8de30ce-d62d-46cf-92ac-aa4c13af6298)
-![Screenshot_20230709_064126](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/0785b499-762d-4c71-aebe-a5ce1d86bc76)
-![Screenshot_20230709_064209](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/98c718f2-c6b4-4ad8-b3fa-67ab74a7d9b7)
+![zomato-1](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/b1e5473a-c3e0-49d2-8d41-85dffb44fd8f)
+![Screenshot_20230709_064126](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/835e4a24-48da-4a9f-b489-51486186231c)
+![Screenshot_20230709_064209](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/584047fc-c881-4c2d-b63c-c8117a8ae5e6)
 # 2. Indiviual City Page
-![Screenshot_20230709_064835](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/6ef7a80b-ec4f-4f54-9344-f3ae7a4a1099)
-![Screenshot_20230709_065016](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/5911ee9d-cd67-4688-978b-ec5ac8b53741)
+![Screenshot_20230709_064835](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/c9dbf39c-692d-4b2a-abac-77b20b03194a)
+![Screenshot_20230709_065016](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/9fb1bf8e-148d-4454-932a-7695b458156d)
 # 3. Indiviual Restaurant Page
-![Screenshot_20230709_065140](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/b66d1276-75b5-4418-baad-787a25ea7ec1)
-![Screenshot_20230709_065337](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/008ad558-95a0-4b8f-8369-da91de76ed2c)
-![Screenshot_20230709_065414](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/b919efbd-f571-4159-8256-fb4b81cb2002)
+![Screenshot_20230709_065140](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/a20cf7f3-805e-4922-9610-f1b779cb8afc)
+![Screenshot_20230709_065337](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/bc941b6c-0031-46cc-9988-dc3de814779e)
+![Screenshot_20230709_065414](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/a3643fad-8f5d-48ba-88a4-c865593f4206)
 # 4. Cart Page
-![Screenshot_20230709_065543](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/32f6aa03-c5dc-4215-bb21-35b90a1fc8be)
-![Screenshot_20230709_065621](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/44f82bdd-93ba-42ed-bf5f-b90bda32ddd8)
+![Screenshot_20230709_065543](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/e6bae414-62fb-4529-8a28-1dcaf286521d)
+![Screenshot_20230709_065621](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/92598695-b31b-4958-a975-902a00a62b8e)
 # 5. Checkout Page
-![Screenshot_20230709_065710](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/a029e6f1-d4ff-4ae5-881c-8c8332efaa5c)
+![Screenshot_20230709_065710](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/d381299d-fc00-406e-a2be-72cc9502bbb4)
 # 6. Admin Page
-![Screenshot_20230709_070118](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/0829bbc7-45a8-40ad-bdeb-bc6808844d07)
-![Screenshot_20230709_065947](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/8a3d0709-8306-44c8-817c-3f850bc4b1ca)
-![Screenshot_20230709_070037](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/cbe9ed8c-f249-4008-82a0-926df69b9b59)
+![Screenshot_20230709_070118](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/6181b448-487e-4131-87eb-b6e3105fbe64)
+![Screenshot_20230709_065947](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/05d5b693-30e9-4c56-8db6-43bd45f3d2df)
+![Screenshot_20230709_070037](https://github.com/SakshamVerma2004/unique-code-1989/assets/123861787/3ab5fb14-a81e-4ab5-9235-1a0d0f9aa43d)
