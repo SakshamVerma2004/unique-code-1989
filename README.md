@@ -1,5 +1,5 @@
 # Clone of Zomato - "QuickBite"
-Project Website completed by solo person (me) within a span of 5 days .
+Project Website completed by solo person (me) within a span of 5 days.
 # Brief
 A Food Delivery website , based on your choice , choose the product , add the product into the cart and finally submitting the details for final checkout , Your Order will be placed for the respective product with choosen quantity.
 # Tech Stacks Used 
